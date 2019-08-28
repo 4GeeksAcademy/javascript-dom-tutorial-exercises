@@ -1,2 +1,2 @@
-var aux = document.getElementById("theTitle");
+let aux = document.getElementById("theTitle");
 //your code here
