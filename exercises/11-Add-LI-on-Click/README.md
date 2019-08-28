@@ -10,4 +10,4 @@ Hint:
 
 Expected result:
 
-![](Uv5q1tB.gif "")
+![](img/Uv5q1tB.gif "")

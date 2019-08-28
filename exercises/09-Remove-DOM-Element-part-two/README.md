@@ -1,10 +1,10 @@
 Is possible to retrieve all the childs of a DOM element, for that you need to use the the childNodes property of the element. Example:
 
-    var list = document.getElementById("myList");
-    var childs = list.childNodes;   
+    let list = document.getElementById("myList");
+    let childs = list.childNodes;   
 
 
-![](LEyjPMW.png "") 
+![](img/LEyjPMW.png "") 
 
 Instructions:
 Using the childNodes property, delete the second LI from the #parentLI list.

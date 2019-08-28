@@ -11,4 +11,4 @@ Hint:
 
 Expected result:
 
-![](fJk4Rrl.gif "")
+![](img/fJk4Rrl.gif "")

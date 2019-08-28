@@ -10,12 +10,12 @@ But what if you write that string into an HTML document during runtime? The brow
 
 Here is the code you need to print any string into the html document.
 
-    var auxString = "<p>Hello!</p> <strong>My friend</strong>";
+    let auxString = "<p>Hello!</p> <strong>My friend</strong>";
     document.write(mystring);
 
 Instructions:
 Using the getFullYear function from the Date() object, change the string content of the variable auxString to make it print the current date's year into the HTML like this:
 
-![](HpinbLP.png "")
+![](img/HpinbLP.png "")
 
 Please print the current year using the date object, don't set the string to a particular year, append the current year to de end of it.
