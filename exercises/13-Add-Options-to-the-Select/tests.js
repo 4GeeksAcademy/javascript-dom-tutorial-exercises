@@ -13,33 +13,33 @@ describe('All the javascript should match', function () {
         document.documentElement.innerHTML = html.toString();
     });
     afterEach(() => { jest.resetModules(); });
-    /*it('the js code should contain an assignment line allow you select element myList', function () {
-        const expected = 'document.getElementById("myList");';
+    it('the js code should contain an assignment line allow you select element mySelect', function () {
+        const expected = 'document.getElementById("mySelect");';
         // we can read from the source code
         console.log(js.toString());
         expect(js.toString().indexOf(expected) > -1).toBeTruthy();
     });
 
-    it('the js code should contain an assignment line allow you create element LI', function () {
-        const expected = 'document.createElement("LI");';
+    it('the js code should contain an assignment line allow you create element OPTION', function () {
+        const expected = 'document.createElement("option");';
         // we can read from the source code
         console.log(js.toString());
         expect(js.toString().indexOf(expected) > -1).toBeTruthy();
     });
 
-    it('the js code should contain an assignment line allow you assign Fourth Element with innerHTML', function () {
-        const expected = 'innerHTML = "Fourth Element";';
-        // we can read from the source code
-        console.log(js.toString());
-        expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-    });
-
-    it('the js code should contain an assignment line allow you add li to list', function () {
+    it('the js code should contain an assignment line allow you add option to select', function () {
         const expected = 'appendChild';
         // we can read from the source code
         console.log(js.toString());
         expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-    });*/
+    });
+
+    it('the js code should contain an assignment line allow you add change event to select', function () {
+        const expected = 'addEventListener("change", function(e)';
+        // we can read from the source code
+        console.log(js.toString());
+        expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+    });
 });
 
 
@@ -56,8 +56,13 @@ describe('All the html should match', function () {
         console.log(html.toString());
         expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
 
+        expect(html.toString().indexOf(`<link rel="stylesheet" href="./styles.css" />`) > -1).toBeTruthy();
+
         //or use query selector to compare hoy mane scriptags do we have
         const scripts = document.querySelectorAll("script");
         expect(scripts.length).toBe(1);
+
+        const styles = document.querySelectorAll("link");
+        expect(styles.length).toBe(1);
     });
 });
