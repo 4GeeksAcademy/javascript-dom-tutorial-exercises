@@ -1,13 +1,16 @@
+# `02` Select DOM Element
+
 In this website, we have 2 elements: a H1 with the ID #theTitle and a paragraph with the ID #theParagraph.
 
 You can select any of the objects in the DOM with the getElementById function. If we want to select the h1 paragraph and assign it to a variable, do the following:
-
-    let aux = document.getElementById('theTitle');
-    
+```js
+let aux = document.getElementById('theTitle');
+```
 <br>
 Now that we have our h1 element stored in the aux variable, we can access any of the properties of the element, for example we can retrieve the font-size style property.
 
-Instructions: 
+## 📝 Instructions:
+
 Prompt an alert with the *ID* of the *h1*.
 
 Hint:
