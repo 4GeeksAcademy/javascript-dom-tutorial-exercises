@@ -13,19 +13,20 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('alert() function should be called', function () {
+    it('alert() function should be called with Hello World', function () {
 
         /*
             Here is how to mock the alert function:
             https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
         */
-        global.alert = jest.fn((text) => console.log(text));
+        global.alert = jest.fn((text) => null);
 
         //then I import the index.js (which should have the alert() call inside)
         const file = require("./index.js");
 
         //and I expect the alert to be already called.
         expect(alert.mock.calls.length).toBe(1);
+        expect(alert).toHaveBeenCalledWith("Hello World");
     });
 });
 
@@ -60,7 +61,6 @@ describe('All the html should match', function () {
     it('the html code should contain a script tag', function () {
 
         // we can read from the source code
-        console.log(html.toString());
         expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
 
         //or use query selector to compare hoy mane scriptags do we have
