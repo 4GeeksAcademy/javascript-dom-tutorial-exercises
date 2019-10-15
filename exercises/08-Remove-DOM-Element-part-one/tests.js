@@ -17,14 +17,12 @@ describe('All the javascript should match', function () {
     it('the js code should contain an assignment line allow you select secondElement', function () {
         const expected = 'document.getElementById("secondElement");';
         // we can read from the source code
-        console.log(js.toString());
         expect(js.toString().indexOf(expected) > -1).toBeTruthy();
     });
 
     it('the js code should contain an assignment line allow you remove a element from the HTML', function () {
         const expected = 'parentNode.removeChild';
         // we can read from the source code
-        console.log(js.toString());
         expect(js.toString().indexOf(expected) > -1).toBeTruthy();
     });
 });

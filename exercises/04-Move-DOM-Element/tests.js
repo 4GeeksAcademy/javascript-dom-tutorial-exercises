@@ -14,11 +14,46 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
     const expected = 'aux.style.float = "right";';
-    it('the js code should contain an assignment line changing the background color', function () {
+    it('querySelector function should be called once', function () {
+        /*
+            Here is how to mock the alert function:
+            https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
+        */
+        //console.log(document);
+        let _document = document.cloneNode(true);
 
-        // we can read from the source code
-        console.log(js.toString());
-        expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+        document.querySelector = jest.fn((selector) => {
+            return _document.querySelector(selector);
+        });
+
+        //then I import the index.js (which should have the alert() call inside)
+        const file = require("./index.js");
+
+        //and I expect the alert to be already called.
+        expect(document.querySelector.mock.calls.length).toBe(1);
+        expect(document.querySelector).toHaveBeenCalledWith("#wulu");
+
+    });
+
+    it('the position of div wulu must be right', function () {
+        /*
+            Here is how to mock the alert function:
+            https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
+        */
+        //console.log(document);
+        let _document = document.cloneNode(true);
+
+        document.querySelector = jest.fn((selector) => {
+            return _document.querySelector(selector);
+        });
+
+        //then I import the index.js (which should have the alert() call inside)
+        const file = require("./index.js");
+
+        //and I expect the alert to be already called.
+        //expect(document.querySelector("#myDiv").style.background.mock.calls.length).toBe(1);
+        expect(document.querySelector("#wulu").style.float).toBe("right");
+
     });
 });
 
@@ -33,7 +68,7 @@ describe('All the html should match', function () {
     it('the html code should contain a script tag', function () {
 
         // we can read from the source code
-        console.log(html.toString());
+        //console.log(html.toString());
         expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
 
         //or use query selector to compare hoy mane scriptags do we have

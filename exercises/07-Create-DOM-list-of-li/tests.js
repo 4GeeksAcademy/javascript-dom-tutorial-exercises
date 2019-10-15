@@ -17,7 +17,6 @@ describe('All the javascript should match', function () {
     it('the js code should contain an assignment line add an element li into liststring variable', function () {
         const expected = 'let liststring = "<li>First Item</li> <li>Second Item</li> <li>Third Item</li>";';
         // we can read from the source code
-        console.log(js.toString());
         expect(js.toString().indexOf(expected) > -1).toBeTruthy();
     });
 });
@@ -33,7 +32,6 @@ describe('All the html should match', function () {
     it('the html code should contain a script tag', function () {
 
         // we can read from the source code
-        console.log(html.toString());
         expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
 
         //or use query selector to compare hoy mane scriptags do we have

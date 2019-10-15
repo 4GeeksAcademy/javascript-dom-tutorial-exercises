@@ -1,6 +1,6 @@
 A great way to create HTML structures for your website is to concatenate several HTML strings in a single, bigger html string, then append that string to the innerHTML of any element that is already a part of the HTML. For example:
 
-    var htmlString = '<div>' + 'Hello World' + '</div>';
+    let htmlString = '<div>' + 'Hello World' + '</div>';
 
 Instructions
 
