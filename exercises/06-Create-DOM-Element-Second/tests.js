@@ -14,10 +14,20 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('the js code should contain an assignment line insert an image with innerHTML', function () {
-        const expected = 'body.innerHTML = "<img src';
+    it('the js code should contain an assignment line using body.innerHTML', function () {
+        const expected1 = 'body.innerHTML';
         // we can read from the source code
-        expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+        expect(js.toString().indexOf(expected1) > -1).toBeTruthy();
+    });
+
+    it('the js code should contain an assignment line insert an IMG with innerHTML', function () {
+        const expected2 = '<img'
+        expect(js.toString().indexOf(expected2) > -1).toBeTruthy();
+    });
+
+    it('the js code should contain an assignment line insert an H1 with innerHTML', function () {
+        const expected3 = '<h1'
+        expect(js.toString().indexOf(expected3) > -1).toBeTruthy();
     });
 });
 
