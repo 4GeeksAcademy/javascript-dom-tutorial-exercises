@@ -14,11 +14,20 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('the js code should contain an assignment line insert an image with innerHTML', function () {
-        const expected = 'body.innerHTML = "<img src';
+    it('the js code should contain an assignment line using body.innerHTML', function () {
+        const expected1 = 'body.innerHTML';
         // we can read from the source code
-        console.log(js.toString());
-        expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+        expect(js.toString().indexOf(expected1) > -1).toBeTruthy();
+    });
+
+    it('the js code should contain an assignment line insert an IMG with innerHTML', function () {
+        const expected2 = '<img'
+        expect(js.toString().indexOf(expected2) > -1).toBeTruthy();
+    });
+
+    it('the js code should contain an assignment line insert an H1 with innerHTML', function () {
+        const expected3 = '<h1'
+        expect(js.toString().indexOf(expected3) > -1).toBeTruthy();
     });
 });
 
@@ -33,7 +42,7 @@ describe('All the html should match', function () {
     it('the html code should contain a script tag', function () {
 
         // we can read from the source code
-        console.log(html.toString());
+        //console.log(html.toString());
         expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
 
         //or use query selector to compare hoy mane scriptags do we have
