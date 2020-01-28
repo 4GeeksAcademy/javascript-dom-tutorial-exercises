@@ -1,12 +1,12 @@
 # `01` Hello World
 
-The DOM is were all you Front-End knowledge combines, you need to know a little bit of HTML, CSS and Javascript.
+The DOM is were all your Front-End knowledge combines, you need to know a little bit of HTML, CSS and Javascript.
 
-But everything starts in a Hello World, of course 😄
+But everything starts with a Hello World, of course 😄
 
 ## 📝 Instructions:
 
-This exercise contains an HTML, CSS and JS file, please open your JS file and fill it with the code to prompt an alert with `Hello World`.
+This exercise contains one HTML, one CSS and one JS file, please open your JS file and fill it with the code to prompt an alert with `Hello World`.
 
 Hint:
 
