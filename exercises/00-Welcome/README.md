@@ -1,14 +1,12 @@
-# `01` Welcome to the world of HTML 😆 !!
+# `01` Welcome to The DOM 😆 !!
 
-Hello, my name is [Alejandro Sanchez](http://alesanchezr.com) and I'm one of the founters of @4GeeksAcademy (coding bootcamp) these exercises and many other interactive tutorials have been open sourced and released to the public for free thru the [BreatheCode Website](www.BreatheCo.de).
+Being a front-end web developer it's all about [The DOM](https://content.breatheco.de/lesson/what-is-dom-define-dom), after this tutorial you'll understand the following concepts:
 
-This exercises for anyone interested in mastering DOM, we will go over the following concepts:
-
-1. DOM
-
-## ➡️ incremental & ✔️ Autograded
-
-- I've built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.
-- All exercises have been automatically graded thanks to [@ljavierrodriguez](https://github.com/ljavierrodriguez)
-
-Click the `next` link on the top of these instructions to begin with the first exercise.
+- Manipulating website styles from javascript.
+- Manipulating website HTML from javascript.
+- Updating the website without refresh.
+- Selecting elements from The DOM using document.querySelector and updating their code using innerHTML.
+- Event oriented programing: listening to user and system events.
+- Programmatically Creating website elemnts and tags using `createNode()`
+- Practicing user oriented events like: onClick, onMoseHover, etc.
+- Event Listeners and Events Handlers.
