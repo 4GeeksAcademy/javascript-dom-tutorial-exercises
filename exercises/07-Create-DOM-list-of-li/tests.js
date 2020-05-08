@@ -14,10 +14,22 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('the js code should contain an assignment line add an element li into liststring variable', function () {
-        const expected = 'let liststring = "<li>First Item</li> <li>Second Item</li> <li>Third Item</li>";';
-        // we can read from the source code
-        expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+    it('The liststring variable should contain 3 "LI" items.' , function () {
+        // const expected = 'let liststring = "<li>First Item</li><li>Second Item</li><li>Third Item</li>";';
+        // // we can read from the source code
+        // expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+         let _document = document.cloneNode(true);
+
+    document.querySelector = jest.fn((selector) => {
+        return _document.querySelector(selector);
+    });
+
+    //then I import the index.js (which should have the alert() call inside)
+    const file = require("./index.js");
+
+    //and I expect the alert to be already called.
+    //expect(document.querySelector("#myDiv").style.background.mock.calls.length).toBe(1);
+    expect(document.querySelector("#myDiv").innerHTML).toBe("<ul><li>First Item</li><li>Second Item</li><li>Third Item</li></ul>");
     });
 });
 
