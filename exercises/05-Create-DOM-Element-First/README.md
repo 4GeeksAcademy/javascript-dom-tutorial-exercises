@@ -1,3 +1,5 @@
+# `05` Create DOM Element First
+
 It is possible to create a new DOM element with Javascript with the function createElement.
 ```js
 let elem = document.createElement("H1");
@@ -12,11 +14,12 @@ After you create any element, you have to add it to the website DOM if you want 
 
 Note: the innerHTML property of any DOM element is used to set the HTML content that is going to be set inside of that HTML TAG.
 
-Instructions
+
+## 📝 Instructions:
 Using the createElement function, create a Paragraph element with yellow background, set the innerHTML to 'Hello World' and append it at the end of the document.
 
-Hint:
+### 💡 Hint:
 - Create a P element
-- Use de createTextNode to set Hello World
+- Set the innerHTML
 - Remember to setup the yellow style
 - Append child to the document
