@@ -1,6 +1,3 @@
-
-FROM gitpod/workspace-full:latest
-
+FROM gitpod/workspace-full
 USER gitpod
-
-RUN npm i jest@24.8.0 -g && npm i breathecode-cli@1.2.4 -g
+RUN npm i jest@24.8.0 -g && npm i breathecode-cli@1.2.52 -g
