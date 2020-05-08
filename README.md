@@ -1,6 +1,6 @@
 # Learn The DOM Interactively
 
-<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/blob/master/.breathecode/assets/badge.svg?raw=true"></a>
+<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/4GeeksAcademy/javascript-dom-tutorial-exercises/b2f552e68f3e7ba7a2bc7176e1273a5df32ccb8f/.breathecode/assets/badge.svg"></a>
 
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
