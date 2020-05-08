@@ -1,2 +1,2 @@
-let aux = document.getElementById('wulu');
+let aux = document.querySelector("#wulu");
 //your code here

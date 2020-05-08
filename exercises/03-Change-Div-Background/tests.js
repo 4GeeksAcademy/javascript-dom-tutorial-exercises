@@ -55,12 +55,4 @@ it('The background color must be yellow', function () {
 
 });
 
-it("Don't change the index.html file", function () {
 
-    // we can read from the source code
-    expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
-
-    //or use query selector to compare hoy mane scriptags do we have
-    const scripts = document.querySelectorAll("script");
-    expect(scripts.length).toBe(1);
-});
