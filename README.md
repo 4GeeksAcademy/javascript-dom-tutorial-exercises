@@ -1,4 +1,4 @@
-# Event-Oriented Programming with Javascript
+# Learn The DOM Interactively
 
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/blob/master/.breathecode/assets/badge.svg?raw=true"></a>
 
