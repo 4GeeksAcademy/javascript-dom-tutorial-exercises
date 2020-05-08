@@ -6,7 +6,7 @@ const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
 
 jest.dontMock('fs');
 
-describe('All the javascript should match', function () {
+
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML = html.toString();
@@ -29,7 +29,7 @@ describe('All the javascript should match', function () {
         expect(alert).toHaveBeenCalledWith("theTitle");
     });
 
-    it('querySelector function should be called once', function () {
+    it("You should use querySelector (don't use getElementById) ", function () {
 
         /*
             Here is how to mock the alert function:
@@ -48,7 +48,7 @@ describe('All the javascript should match', function () {
         expect(document.querySelector.mock.calls.length).toBe(1);
         expect(document.querySelector).toHaveBeenCalledWith("#theTitle");
     });
-});
+
 
 
 describe('All the html should match', function () {
