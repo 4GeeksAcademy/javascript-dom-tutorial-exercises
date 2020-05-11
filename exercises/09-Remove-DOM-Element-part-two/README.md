@@ -3,7 +3,7 @@
 Is possible to retrieve all the childs of a DOM element, for that you need to use the the childNodes property of the element. 
 Example:
 ```js
-    let list = document.getElementById("myList");
+    let list = document.querySelector("#myList");
     let childs = list.childNodes;   
 ```
 
