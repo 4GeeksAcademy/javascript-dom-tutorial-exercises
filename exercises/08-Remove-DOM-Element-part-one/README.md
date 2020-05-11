@@ -14,7 +14,7 @@ To remove the second element, need the function removeChild from the parent UL, 
 
 Something like this:
 ```js
-    let element = document.getElementById("element-id");
+    let element = document.querySelector("#element-id");
     element.parentNode.removeChild(element);
 ```
 ## 📝 Instructions:
