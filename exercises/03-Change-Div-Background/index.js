@@ -1,1 +1,1 @@
-let mydiv = document.querySelector('#myDiv');
+let mydiv = document.querySelector("#myDiv");

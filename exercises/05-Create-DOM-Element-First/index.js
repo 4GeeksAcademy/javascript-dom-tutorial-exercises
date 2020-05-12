@@ -1,5 +1,6 @@
-let elem = document.createElement("H1");
+var elem = document.createElement("H1");
 elem.innerHTML = "Hello World";
-let elembd = document.body.appendChild(elem);
+document.querySelector("#myDiv").appendChild(elem);
 
 //Your code here
+// Don'change the code above

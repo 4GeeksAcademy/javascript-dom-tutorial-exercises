@@ -7,57 +7,46 @@ const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
 
 jest.dontMock('fs');
 
-describe('All the javascript should match', function () {
-    beforeEach(() => {
-        //here I import the HTML into the document
-        document.documentElement.innerHTML = html.toString();
-    });
-    afterEach(() => { jest.resetModules(); });
-    it('the js code should contain an assignment line allow you select element myList', function () {
-        const expected = 'document.getElementById("myList");';
-        // we can read from the source code
-        console.log(js.toString());
-        expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-    });
 
-    it('the js code should contain an assignment line allow you create element LI', function () {
-        const expected = 'document.createElement("LI");';
-        // we can read from the source code
-        console.log(js.toString());
-        expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-    });
+test("You should use the querySelector to select the element with #id myList", function () {
+    document.documentElement.innerHTML = html.toString();
+    const expected = 'document.querySelector("#myList")';
+    // we can read from the source code
+    console.log(js.toString());
+    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
 
-    it('the js code should contain an assignment line allow you assign Fourth Element with innerHTML', function () {
-        const expected = 'innerHTML = "Fourth Element";';
-        // we can read from the source code
-        console.log(js.toString());
-        expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-    });
-
-    it('the js code should contain an assignment line allow you add li to list', function () {
-        const expected = 'appendChild';
-        // we can read from the source code
-        console.log(js.toString());
-        expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-    });
+});
+test('the js code should contain an assignment line allow you create element LI', function () {
+    document.documentElement.innerHTML = html.toString();
+    const expected = 'document.createElement';
+    // we can read from the source code
+    console.log(js.toString());
+    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
 });
 
+test('the js code should contain an assignment line allow you assign Fourth Element with innerHTML', function () {
+    document.documentElement.innerHTML = html.toString();
+    const expected = 'innerHTML = "Fourth element";';
+    // we can read from the source code
+    console.log(js.toString());
+    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+});
 
-describe('All the html should match', function () {
-    beforeEach(() => {
-        //here I import the HTML into the document
-        document.documentElement.innerHTML = html.toString();
-    });
-    afterEach(() => { jest.resetModules(); });
+test('the js code should contain an assignment line allow you add li to list', function () {
+    document.documentElement.innerHTML = html.toString();
+    const expected = 'appendChild';
+    // we can read from the source code
+    console.log(js.toString());
+    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+});
 
-    it('the html code should contain a script tag', function () {
+test('the html code should contain a script tag', function () {
+    document.documentElement.innerHTML = html.toString();
+    // we can read from the source code
+    console.log(html.toString());
+    expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
 
-        // we can read from the source code
-        console.log(html.toString());
-        expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
-
-        //or use query selector to compare hoy mane scriptags do we have
-        const scripts = document.querySelectorAll("script");
-        expect(scripts.length).toBe(1);
-    });
+    //or use query selector to compare hoy mane scriptags do we have
+    const scripts = document.querySelectorAll("script");
+    expect(scripts.length).toBe(1);
 });

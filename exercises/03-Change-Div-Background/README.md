@@ -1,4 +1,6 @@
-In this HTML website, inside of the `<body>` we have a `<div>` with the ID=myDiv 
+# `03` Change Div Background
+
+In this HTML website, inside of the `<body>` we have a `<div>` with the `id# 'myDiv' `
 
 Using Javascript, please change the background of that div to yellow.
 
@@ -8,7 +10,7 @@ For example, to change the background of an element we need to set the `element.
 
 ```js
 //first query for the elemnt
-let aux = document.querySelector('#anyElemnt');
+let aux = document.querySelector('#anyElement');
 
 //second set the background
 aux.style.background = "blue";

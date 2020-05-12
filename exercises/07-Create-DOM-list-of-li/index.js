@@ -1,6 +1,5 @@
-let begining = '<ul>';
-let liststring = '';
-let ending = '</ul>';
+let beginning = "<ul>";
+let liststring = "";
+let ending = "</ul>";
 
-
-document.body.innerHTML = begining + liststring + ending;
+document.querySelector("#myDiv").innerHTML = beginning + liststring + ending;

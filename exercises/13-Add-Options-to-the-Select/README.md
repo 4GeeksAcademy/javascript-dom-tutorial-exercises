@@ -1,5 +1,7 @@
-Instructions:
-1. Use the innerHTML property to add all these countries into the #mySelect select. 
-2. Then, add a listener to the 'change' event and display and alert with the selected country when the user selects it.
+# `13` Add option to the select
 
-![](img/1497055203778_4a084e5762b72d8770dac1c95941de0c.gif)
+## 📝 Instructions:
+1. Use the innerHTML property to add all these countries into the `#mySelect` select. 
+2. Then, add a listener to the `'change'` event and display and alert with the selected country when the user selects it.
+
+![](https://storage.googleapis.com/replit/images/1497055203778_4a084e5762b72d8770dac1c95941de0c.gif)
