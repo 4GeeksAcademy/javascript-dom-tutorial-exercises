@@ -1,7 +1,13 @@
 {
     "port": 3000,
-    "address": "localhost",
+    "address": "https://ae30b3c1-c20d-491c-926b-f58f026cbbbc.ws-us02.gitpod.io",
     "editor": "gitpod",
+    "configPath": {
+        "config": "bc.json",
+        "base": ".breathecode",
+        "exercises": "./exercises",
+        "output": ".breathecode/dist"
+    },
     "outputPath": "./.breathecode/dist",
     "publicPath": "/preview",
     "grading": "isolated",
@@ -25,40 +31,50 @@
             "title": "00-Welcome",
             "path": "exercises/00-Welcome",
             "translations": [
+                "es",
                 "us"
-            ]
+            ],
+            "graded": false
         },
         {
             "slug": "01-hello-world",
             "title": "01-hello-world",
             "path": "exercises/01-hello-world",
             "translations": [
+                "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "02-Select-DOM-Element",
             "title": "02-Select-DOM-Element",
             "path": "exercises/02-Select-DOM-Element",
             "translations": [
+                "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "03-Change-Div-Background",
             "title": "03-Change-Div-Background",
             "path": "exercises/03-Change-Div-Background",
             "translations": [
+                "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "04-Move-DOM-Element",
             "title": "04-Move-DOM-Element",
             "path": "exercises/04-Move-DOM-Element",
             "translations": [
+                "es",
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "05-Create-DOM-Element-First",
@@ -66,7 +82,8 @@
             "path": "exercises/05-Create-DOM-Element-First",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "06-Create-DOM-Element-Second",
@@ -74,7 +91,8 @@
             "path": "exercises/06-Create-DOM-Element-Second",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "07-Create-DOM-list-of-li",
@@ -82,7 +100,8 @@
             "path": "exercises/07-Create-DOM-list-of-li",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "08-Remove-DOM-Element-part-one",
@@ -90,7 +109,8 @@
             "path": "exercises/08-Remove-DOM-Element-part-one",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "09-Remove-DOM-Element-part-two",
@@ -98,7 +118,8 @@
             "path": "exercises/09-Remove-DOM-Element-part-two",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "10-Render-on-Click",
@@ -106,7 +127,8 @@
             "path": "exercises/10-Render-on-Click",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "11-Add-LI-on-Click",
@@ -114,7 +136,8 @@
             "path": "exercises/11-Add-LI-on-Click",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "12-Dynamic-HTML-String",
@@ -122,7 +145,8 @@
             "path": "exercises/12-Dynamic-HTML-String",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "13-Add-Options-to-the-Select",
@@ -130,7 +154,8 @@
             "path": "exercises/13-Add-Options-to-the-Select",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         },
         {
             "slug": "14-Todo-List",
@@ -138,7 +163,8 @@
             "path": "exercises/14-Todo-List",
             "translations": [
                 "us"
-            ]
+            ],
+            "graded": true
         }
     ]
 }

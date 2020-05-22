@@ -1,12 +1,12 @@
 # `12` Dynamic HTML String
 
-One of the cool things about javascript, is that it lets you create dynamic HTML strings during runtime, that means that you can create HTML automatically while you sleep! Yes! Bare with me and you will understand how....
+One of the cool things about javascript, is that it lets you create dynamic HTML strings during runtime, that means that you can create HTML automatically while you sleep! Yes! Bear with me and you will understand how....
 
 Please take a look at the following string:
 ```javascript 
     let auxString = "<p>Hello!</p> <strong>My friend</strong>";
 ```
-As humans, we know that this string is formatted like an HTML because it has a <p> and a <strong> tag inside. But javascript doesn't know that,  javascript only understands a string as a series of characters, it does not matter if the characters are set in a way that looks like HTML.
+As humans, we know that this string is formatted like an HTML because it has a `<p>` and a `<strong>` tag inside. But javascript doesn't know that,  javascript only understands a string as a series of characters, it does not matter if the characters are set in a way that looks like HTML.
 
 But what if you write that string into an HTML document during runtime? The browser will interpret that string as HTML (its what browsers do) and it will render it as HTML, removing the tags and applying their respective format into the remaining text. 
 
