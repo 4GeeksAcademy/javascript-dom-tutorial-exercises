@@ -1,0 +1,28 @@
+# `02` Select DOM Element
+
+En este sitio web, tenemos 2 elementos: un <H1> con el `ID #theTitle` y un párrafo con el `ID #theParagraph`.
+
+Puedes seleccionar cualquiera de los objetos en el DOM con la función `querySelector`. 
+
+Por ejemplo: si queremos seleccionar el elemento `<h1>`, podemos hacer lo siguiente:
+
+```js
+let aux = document.querySelector('#theTitle');
+//La variable aux ahora contiene el elemento H1 DOM dentro.
+```
+
+Ahora que tenemos nuestro elemento h1 almacenado en `aux`, podemos acceder a cualquiera de las propiedades de h1, por ejemplo, podemos recuperar la propiedad de estilo font-size (tamaño de fuente) de esta manera:
+
+```js
+let aux = document.querySelector('#theTitle');
+console.log(aux.style.fontSize);
+```
+
+Aquí puedes leer más sobre esto: [lee más](https://www.w3schools.com/jsref/prop_style_fontsize.asp)
+
+## 📝 Instrucciones:
+
+Solicite una alerta con la *ID* de *h1*.
+
+### 💡 Pista:
+- Aquí puede leer más sobre la propiedad id de cualquier elemento DOM: http://www.w3schools.com/jsref/prop_html_id.asp

@@ -1,10 +1,8 @@
 # `11` Add LI on Click
 
-If you don't feel comfortable with events please complete all the exercises on this classroom: https://repl.it/teacher/classrooms/4169
-
 ## 📝 Instructions:
 
-Using the createElement function, add a new <li> element to the #myList whenever the  `#superDuperButton` is clicked.
+Using the createElement function, add a new `<li>` element to the #myList whenever the  `#superDuperButton` is clicked.
 
 ### 💡 Hint:
 - get the `#superDuperButton` button with the getElementById function
