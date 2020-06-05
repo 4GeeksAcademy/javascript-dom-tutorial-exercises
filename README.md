@@ -19,6 +19,7 @@ I strongly recommend doing this the tutorials in this order:
 3. [Introduction to Javascript](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial)
 4. [Introduction to The DOM](https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises) ← you are here now 🔥
 5. [Using events & The DOM](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises)
+6. [Object Oriented Programming](https://github.com/4GeeksAcademy/object-oriented-javascript-tutorial-exercises)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
