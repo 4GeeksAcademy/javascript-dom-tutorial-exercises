@@ -16,8 +16,8 @@ it('The function removeChild must have been called with the element #secondEleme
         return _document.querySelector(selector);
     });
     let elmId = null;
-    HTMLUListElement.prototype.removeChild = jest.fn((selector) => {
-        elmId = selector.id ;
+    HTMLUListElement.prototype.removeChild = jest.fn((_elm) => {
+        elmId = _elm.id ;
     });
     
     //then I import the index.js (which should have the alert() call inside)
