@@ -8,7 +8,25 @@ const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
 jest.dontMock('fs');
 
 
-test('You should delete the second "LI"element.', function () {
+it('The function removeChild must have been called with the element #secondElement' , function () {
+    document.documentElement.innerHTML = html.toString();
+    let _document = document.cloneNode(true);
+    
+    document.querySelector = jest.fn((selector) => {
+        return _document.querySelector(selector);
+    });
+    let elmId = null;
+    HTMLUListElement.prototype.removeChild = jest.fn((selector) => {
+        elmId = selector.id ;
+    });
+    
+    //then I import the index.js (which should have the alert() call inside)
+    const file = require("./index.js");
+    expect(HTMLUListElement.prototype.removeChild).toHaveBeenCalled();
+    expect(elmId).toBe("secondElement");
+});
+
+test('You should use the removeChild function', function () {
     document.documentElement.innerHTML = html.toString();
     const expected = 'parentNode.removeChild';
     // we can read from the source code

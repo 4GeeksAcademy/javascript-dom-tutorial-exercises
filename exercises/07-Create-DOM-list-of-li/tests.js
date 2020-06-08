@@ -9,20 +9,25 @@ jest.dontMock('fs');
 
 
 
-it('The liststring variable should contain 3 "LI" items.' , function () {
-  document.documentElement.innerHTML = html.toString();
-      let _document = document.cloneNode(true);
+it('The website DOM must contain 3 <li> items' , function () {
+    document.documentElement.innerHTML = html.toString();
+    let _document = document.cloneNode(true);
 
-  document.querySelector = jest.fn((selector) => {
-    return _document.querySelector(selector);
-  });
+    document.querySelector = jest.fn((selector) => {
+        return _document.querySelector(selector);
+    });
 
-//then I import the index.js (which should have the alert() call inside)
-const file = require("./index.js");
+    //then I import the index.js (which should have the alert() call inside)
+    const file = require("./index.js");
 
-//and I expect the alert to be already called.
-//expect(document.querySelector("#myDiv").style.background.mock.calls.length).toBe(1);
-expect(document.querySelector("#myDiv").innerHTML).toBe("<ul><li>First Item</li><li>Second Item</li><li>Third Item</li></ul>");
+    //and I expect the alert to be already called.
+    //expect(document.querySelector("#myDiv").style.background.mock.calls.length).toBe(1);
+    let children = document.querySelector("ul").childNodes;
+    let count = 0;
+    for(let i = 0; i<children.length;i++){
+        if(children[i].nodeName == "li") count++;
+    }
+    expect(count).toBe(3);
 });
 
 it('the html code should contain a script tag', function () {

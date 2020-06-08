@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://ae30b3c1-c20d-491c-926b-f58f026cbbbc.ws-us02.gitpod.io",
+    "address": "https://b93d8d6b-ef8f-42c8-a989-9c51c06e9c31.ws-us02.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -99,6 +99,7 @@
         {
             "slug": "07-Create-DOM-list-of-li",
             "title": "07-Create-DOM-list-of-li",
+            "done": true,
             "path": "exercises/07-Create-DOM-list-of-li",
             "translations": [
                 "es",
@@ -109,6 +110,7 @@
         {
             "slug": "08-Remove-DOM-Element-part-one",
             "title": "08-Remove-DOM-Element-part-one",
+            "done": true,
             "path": "exercises/08-Remove-DOM-Element-part-one",
             "translations": [
                 "es",

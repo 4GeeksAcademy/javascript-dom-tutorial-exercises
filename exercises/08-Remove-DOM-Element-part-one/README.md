@@ -13,10 +13,11 @@ The challenge behind this function, is that it needs to be called from the paren
 To remove the second element, need the function removeChild from the parent UL, but passing, as a parameter, the `<li>` that I want to remove.
 
 Something like this:
+
 ```js
     let element = document.querySelector("#element-id");
     element.parentNode.removeChild(element);
 ```
 ## 📝 Instructions:
 
-Remove the `#secondItem` from the UL that is part of the HTML of this website.
+Remove the second li from the UL that is part of the HTML of this website.
