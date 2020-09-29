@@ -7,7 +7,7 @@ Example:
     let childs = list.childNodes;   
 ```
 
-![](http://i.imgur.com/LEyjPMW.png"") 
+![](http://i.imgur.com/LEyjPMW.png) 
 
 ## 📝 Instructions:
 Using the childNodes property, delete the second LI from the `#parentLI` list.
