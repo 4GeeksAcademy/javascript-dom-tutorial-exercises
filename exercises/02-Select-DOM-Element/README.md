@@ -1,6 +1,6 @@
 # `02` Select DOM Element
 
-In this website, we have 2 elements: one <H1> with the `ID #theTitle `and a paragraph with the `ID #theParagraph`.
+In this website, we have 2 elements: one `<H1>` with the `ID #theTitle `and a paragraph with the `ID #theParagraph`.
 
 You can select any of the objects in the DOM with the `querySelector` function. 
 
