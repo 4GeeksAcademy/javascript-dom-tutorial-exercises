@@ -1,6 +1,6 @@
 # `02` Select DOM Element
 
-En este sitio web, tenemos 2 elementos: un <H1> con el `ID #theTitle` y un párrafo con el `ID #theParagraph`.
+En este sitio web, tenemos 2 elementos: un `<H1>` con el `ID #theTitle` y un párrafo con el `ID #theParagraph`.
 
 Puedes seleccionar cualquiera de los objetos en el DOM con la función `querySelector`. 
 
