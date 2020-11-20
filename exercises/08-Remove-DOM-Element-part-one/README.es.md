@@ -1,8 +1,8 @@
-# `08` Remove DOM Element Part One
-
+# `08` Eliminar un elemento DOM Element: Parte uno
 
 Si deseas eliminar un elemento del DOM, debes usar la función removeChild.
-El desafío detrás de esta función es que debe llamarse desde el padre del elemento que desea eliminar. Por ejemplo, en este código:
+El desafío detrás de esta función es que debe llamarse desde el padre del elemento que quieres eliminar. Por ejemplo, en este código:
+
 ```html
     <ul>
         <li>First element</li>
@@ -19,4 +19,4 @@ Algo como esto:
 ```
 ## 📝 Instrucciones:
 
-Elimine el `#secondItem` de la UL que forma parte del HTML de este sitio web.
+Elimine el segundo li de la UL que forma parte del HTML de este sitio web.

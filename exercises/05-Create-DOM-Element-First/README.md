@@ -5,7 +5,8 @@ It is possible to create a new DOM element with Javascript with the function cre
 let elem = document.createElement("H1");
 ```
 
-After you create any element, you have to add it to the website DOM if you want to display it. it inside of the website, to add the element to the DOM we use the function appendChild.
+After you create any element, you have to add it to the website DOM if you want to display it inside of the website, to add the element to the DOM we use the function appendChild.
+
 ```js
     let elem = document.createElement("H1");
     elem.innerHTML = "Hello World";

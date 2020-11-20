@@ -1,4 +1,4 @@
-# `06` Create DOM Element Second
+# `06` Crea un elemento DOM en segundo lugar
 
 En el último ejercicio vimos cómo crear un elemento DOM HTML usando las funciones createElement y appendChild. Hay otra forma de agregar un elemento al HTML del sitio web: innerHTML.
 

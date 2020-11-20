@@ -10,7 +10,7 @@ The challenge behind this function, is that it needs to be called from the paren
         <li>Third element</li>
     </ul>
 ```
-To remove the second element, need the function removeChild from the parent UL, but passing, as a parameter, the `<li>` that I want to remove.
+To remove the second element, we need the function removeChild from the parent UL, but passing, as a parameter, the `<li>` that I want to remove.
 
 Something like this:
 

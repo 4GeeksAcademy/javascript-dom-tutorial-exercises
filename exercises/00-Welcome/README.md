@@ -7,6 +7,6 @@ Being a front-end web developer it's all about [The DOM](https://content.breathe
 - Updating the website without refresh.
 - Selecting elements from The DOM using document.querySelector and updating their code using innerHTML.
 - Event oriented programing: listening to user and system events.
-- Programmatically Creating website elemnts and tags using `createNode()`
+- Programmatically Creating website elements and tags using `createNode()`
 - Practicing user oriented events like: onClick, onMoseHover, etc.
 - Event Listeners and Events Handlers.

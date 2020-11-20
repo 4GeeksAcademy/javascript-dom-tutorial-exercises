@@ -1,4 +1,4 @@
-# `07` Create DOM list of li
+# `07` Crear una lista DOM list de li
 
 Una excelente manera de crear estructuras HTML para tu sitio web es concatenar varios strings de HTML en un solo string de html más grande, luego agregar ese string al innerHTML de cualquier elemento que ya sea parte del HTML. Por ejemplo:
 ```js
@@ -16,4 +16,4 @@ ESTABLECE la variable "liststring" con el valor necesario para que el siguiente 
     </ul>
 ```
 ### 💡 Pista:
-Recuerde que el intérprete del navegador ignora los espacios en blanco y la sangría.
+Recuerda que el intérprete del navegador ignora los espacios en blanco y la sangría.

@@ -1,9 +1,9 @@
 # `14` ToDo List
 
-Este diseño de lista de tareas (ToDo List) es puro CSS. El CSS y HTML está listo, pero necesitamos codificar la parte Javascript de la aplicación. Como puedes ver, cuando se ejecuta inicialmente, ¡la capacidad de eliminar o agregar elementos a la lista de tareas aún no existe!
+Este diseño de lista de tareas (Todo List) es puro CSS. El CSS y HTML está listo, pero necesitamos codificar la parte Javascript de la aplicación. Como puedes ver, cuando se ejecuta inicialmente, ¡la capacidad de eliminar o agregar elementos a la lista de tareas aún no existe!
 
 ## 📝 Instrucciones:
-Agrega la funcionalidad `"delete task"` y `"add task"`. ¡No tienes que editar nada del HTML ni del CSS, solo el javascript!
+Agrega la funcionalidad `"delete task"`(eliminae tarea) y `"add task"`(añadir tarea). No tienes que editar nada del HTML ni del CSS ¡solo el javascript!
 
 ### 💡 Pista:
 
