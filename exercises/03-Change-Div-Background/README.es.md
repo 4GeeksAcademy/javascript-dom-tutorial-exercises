@@ -1,10 +1,10 @@
-# `03` Change Div Background
+# `03` Cmabiar el fondo(background) de un div 
 
 En este sitio web, dentro del `<body>` tenemos un `<div>` con el `id# 'myDiv' `
 
 Usando Javascript, cambia el fondo de ese div a amarillo.
 
-Puedes configurar cualquier estilo CSS en cualquier elemento DOM utilizando la propiedad `element.style`.
+Puedes CONFIGURAR cualquier estilo CSS en cualquier elemento DOM utilizando la propiedad `element.style`.
 
 Por ejemplo, Para cambiar el fondo de un elemento, necesitamos establecer la propiedad `element.style.background` en el color que queramos.
 

@@ -1,4 +1,4 @@
-# `04` Move DOM Element
+# `04` Mover un elemento del DOM 
 
 Puedes cambiar cualquiera de las propiedades CSS cuando lo desees. Dado que CSS tiene algunas propiedades que definen la posición de un objeto, eso significa que puede usar Javascript para cambiar la posición de un objeto.
 

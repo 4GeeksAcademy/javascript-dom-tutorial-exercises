@@ -11,8 +11,8 @@ los usuarios hagan click en el `#superDuperButton`
 
 ### 💡 Pista:
 - obtén el botón con la función getElementById
-- Agrega un listener de eventos de click al `#superDuperButton`
-- Dentro de esa función de listener, agrega el código necesario para crear el elemento y adjuntado al body como un hijo.
+- Agrega un listener de eventos al `#superDuperButton`
+- Dentro de esa función de listener, agrega el código necesario para crear el elemento y añádelo al body como un hijo.
 
 Resultado Esperado:
 

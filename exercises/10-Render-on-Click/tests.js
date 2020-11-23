@@ -53,7 +53,7 @@ it('You should create a new "DIV" element', function () {
 //     expect(js.toString().indexOf(expected) > -1).toBeTruthy();
 // });
 
-test('the js code should contain an assignment line allow you insert Hello Worl with innerHTML', function () {
+test('the js code should contain an assignment line allowing you insert Hello World with innerHTML', function () {
   document.documentElement.innerHTML = html.toString();
     const expected = 'innerHTML = "Hello World";';
     // we can read from the source code

@@ -1,8 +1,8 @@
-# `12` Dynamic HTML String
+# `12` String dinámico HTML 
 
-Una de las cosas interesantes de javascript es que te permite crear string dinámicas en HTML durante el tiempo de ejecución, lo que significa que puedes crear HTML automáticamente mientras duermes. ¡Si! Acompañame y entenderás cómo...
+Una de las cosas interesantes de javascript es que te permite crear string dinámicas en HTML durante el tiempo de ejecución, lo que significa que puedes crear HTML automáticamente mientras duermes. ¡Si! Acompáñame y entenderás cómo...
 
-Por favor, eche un vistazo a la siguiente string:
+Por favor, dale un vistazo a la siguiente string:
 ```javascript 
     let myString = "<p>Hello!</p> <strong>My friend</strong>";
 ```
@@ -16,8 +16,9 @@ Aquí está el código que necesitas para imprimir cualquier string en el docume
     document.write(myString);
 ```
 ## 📝 Instrucciones:
-Usando la función getFullYear del objeto `Date()`, cambia el contenido del string de la variable `myString` para que imprima el año de la fecha actual en el HTML de esta manera:
+
+Usando la función getFullYear del objeto `Date()`, cambia el contenido del string de la variable `auxString` para que imprima el año de la fecha actual en el HTML de esta manera:
 
 ![](http://i.imgur.com/HpinbLP.png "")
 
-Imprime el año actual utilizando el objeto de fecha, no establezca el string en un año en particular, agrega el año actual al final.
+Imprime el año actual utilizando el objeto de fecha, no establezca el string en un año en particular, agrega(append) el año actual al final.
