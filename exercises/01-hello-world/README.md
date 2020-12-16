@@ -1,6 +1,6 @@
 # `01` Hello World
 
-The DOM is were all your Front-End knowledge combines, you need to know a little bit of HTML, CSS and Javascript.
+The DOM is where all your Front-End knowledge combines, you need to know a little bit of HTML, CSS and Javascript.
 
 But everything starts with a Hello World, of course 😄
 
