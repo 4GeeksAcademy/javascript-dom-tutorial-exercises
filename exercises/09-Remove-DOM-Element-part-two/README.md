@@ -1,6 +1,6 @@
 # `09` Remove DOM Element Part Two
 
-Is possible to retrieve all the childs of a DOM element, for that you need to use the the childNodes property of the element. 
+It is possible to retrieve all the childs of a DOM element, for that you need to use the the childNodes property of the element. 
 Example:
 ```js
     let list = document.querySelector("#myList");

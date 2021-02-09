@@ -4,7 +4,7 @@ One of the cool things about javascript, is that it lets you create dynamic HTML
 
 Please take a look at the following string:
 ```javascript 
-    let auxString = "<p>Hello!</p> <strong>My friend</strong>";
+    let myString = "<p>Hello!</p> <strong>My friend</strong>";
 ```
 As humans, we know that this string is formatted like an HTML because it has a `<p>` and a `<strong>` tag inside. But javascript doesn't know that,  javascript only understands a string as a series of characters, it does not matter if the characters are set in a way that looks like HTML.
 
@@ -12,11 +12,11 @@ But what if you write that string into an HTML document during runtime? The brow
 
 Here is the code you need to print any string into the html document.
 ```js
-    let auxString = "<p>Hello!</p> <strong>My friend</strong>";
-    document.write(mystring);
+    let myString = "<p>Hello!</p> <strong>My friend</strong>";
+    document.write(myString);
 ```
 ## 📝 Instructions:
-Using the getFullYear function from the `Date()` object, change the string content of the variable `auxString` to make it print the current date's year into the HTML like this:
+Using the getFullYear function from the `Date()` object, change the string content of the variable `myString` to make it print the current date's year into the HTML like this:
 
 ![](http://i.imgur.com/HpinbLP.png "")
 
