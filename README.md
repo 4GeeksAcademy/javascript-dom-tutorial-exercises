@@ -42,20 +42,20 @@ $ learnpack plugins:install learnpack-html
 2. Download this particular exercises using learnpack and `cd` into the folder:
 
 ```
-$ learnpack download html-forms-tutorial-exercises
-$ cd html-forms-tutorial-exercises
+$ learnpack download javascript-dom-tutorial-exercises
+$ cd javascript-dom-tutorial-exercises
 ```
 
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
-3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+3. Start the tutorial/exercises by running the following command at the same level were your learn.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Node: The xercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Node: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 ## How are the React Tutorial Exercises organized?
 
