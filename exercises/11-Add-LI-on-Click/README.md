@@ -5,7 +5,7 @@
 Using the createElement function, add a new `<li>` element to the #myList whenever the  `#superDuperButton` is clicked.
 
 ### 💡 Hint:
-- get the `#superDuperButton` button with the getElementById function
+- Get the `#superDuperButton` button with the getElementById function
 - Add a click event listener to the `#superDuperButton`
 - Inside of that listener function, add the needed code to create the new LI element and append to the list as a child.
 
