@@ -1,8 +1,8 @@
 # `08` Remove DOM Element Part One
 
+If you want to remove an element from the DOM, you use the `removeChild` function.
 
-If you want to remove an element from the DOM, you have to use the removeChild function.
-The challenge behind this function, is that it needs to be called from the parent of the element that you want to remove. For example, in this code:
+The challenge behind this function, is that it needs to be called from the parent of the element that you want to remove. For example:
 ```html
     <ul>
         <li>First element</li>
@@ -10,7 +10,7 @@ The challenge behind this function, is that it needs to be called from the paren
         <li>Third element</li>
     </ul>
 ```
-To remove the second element, we need the function removeChild from the parent UL, but passing, as a parameter, the `<li>` that I want to remove.
+In the previous code, to remove the second element, we need the function `removeChild` from the parent `<ul>`, but passing, as a parameter, the `<li>` that I want to remove.
 
 Something like this:
 
@@ -20,4 +20,4 @@ Something like this:
 ```
 ## 📝 Instructions:
 
-Remove the second li from the UL that is part of the HTML of this website.
+1. Remove the second `<li>` from the `<ul>` that is part of the HTML of this website.

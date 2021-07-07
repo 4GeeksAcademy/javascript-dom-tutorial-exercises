@@ -11,4 +11,5 @@ Este ejercicio contiene un archivo HTML, un CSS y un archivo JS, abre tu archivo
 Pista:
 
 - Compila y obten un vista previa del código del ejercicio. Se abrirá en una nueva ventana.
-- Presiona el botón de test cuando te sientas lo suficientemente cómodo como para calificarlo automáticamente.
+
+- Presiona el botón de test cuando te sientas lo suficientemente cómodo como para calificarlo automáticamente y pasar al siguiente ejercicio.
