@@ -7,7 +7,7 @@ const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
 
 jest.dontMock('fs');
 
-test("You should use the querySelector to select the element with #id parentLI", function () {
+test("You should use the querySelector to select the element with #id parentLi", function () {
     document.documentElement.innerHTML = html.toString();
     /*
         Here is how to mock the alert function:
@@ -25,7 +25,7 @@ test("You should use the querySelector to select the element with #id parentLI",
 
     //and I expect the alert to be already called.
     expect(document.querySelector.mock.calls.length).toBe(1);
-    expect(document.querySelector).toHaveBeenCalledWith("#parentLI");
+    expect(document.querySelector).toHaveBeenCalledWith("#parentLi");
 
 });
 test('You have to use the childNodes property.', function () {

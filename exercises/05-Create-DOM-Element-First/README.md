@@ -3,13 +3,13 @@
 It is possible to create a new DOM element with Javascript with the function createElement.
 
 ```js
-let elem = document.createElement("H1");
+let elem = document.createElement("h1");
 ```
 
 After you create any element, you have to add it to the website DOM if you want to display it inside of the website. To add the element to the DOM we use the function `appendChild`.
 
 ```js
-    let elem = document.createElement("H1");
+    let elem = document.createElement("h1");
     elem.innerHTML = "Hello World";
     document.body.appendChild(elem);
 ```
@@ -23,11 +23,11 @@ No te preocupes ¡no es tan enredado como suena!
 
 ## 📝 Instructions:
 
-1. Using the `createElement` function, create a Paragraph(`P`) element with `yellow` background, set the `innerHTML` to 'Hello World' and append it at the end of the document.
+1. Using the `createElement` function, create a Paragraph(`p`) element with `yellow` background, set the `innerHTML` to 'Hello World' and append it at the end of the document.
 
 ### 💡 Hint:
 
-- Create a `P` element.
+- Create a `p` element.
 
 - Set the innerHTML.
 
