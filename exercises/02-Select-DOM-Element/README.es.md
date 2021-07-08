@@ -1,6 +1,6 @@
 # `02` Seleccionar un elemento del DOM 
 
-En este sitio web, tenemos 2 elementos: un `<H1>` con el `ID #theTitle` y un párrafo con el `ID #theParagraph`.
+En este sitio web, tenemos 2 elementos: un `<h1>` con el `id #theTitle` y un párrafo con el `id #theParagraph`.
 
 Puedes seleccionar cualquiera de los objetos en el DOM con la función `querySelector`. 
 
@@ -24,7 +24,7 @@ console.log(aux.style.fontSize);
 
 ## 📝 Instrucciones:
 
-1. Muestra una alerta con la `ID` de `h1`.
+1. Muestra una alerta con la `id` de `h1`.
 
 ### 💡 Pista:
 

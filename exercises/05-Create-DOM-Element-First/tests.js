@@ -9,15 +9,15 @@ jest.dontMock('fs');
 
 
 
-it('the js code should contain an assignment line creating element H1', function () {
+it('the js code should contain an assignment line creating element h1', function () {
   document.documentElement.innerHTML = html.toString();
   let _document = document.cloneNode(true);
 
   document.querySelector = jest.fn((selector) => {
-    if(selector === "H1")return true
+    if(selector === "h1")return true
     else return false
   });
-  expect(document.querySelector("H1")).toBeTruthy();
+  expect(document.querySelector("h1")).toBeTruthy();
 });
 
 it('the js code should contain an assignment line creating text node with value "Hello World"', function () {
@@ -34,11 +34,11 @@ it('the js code should contain an assignment line creating text node with value 
 
     //and I expect the alert to be already called.
     //expect(document.createElement.mock.calls.length).toBe(1);
-    expect(document.querySelector("H1").innerHTML).toBe("Hello World");
+    expect(document.querySelector("h1").innerHTML).toBe("Hello World");
 
 });
 
-it('You should create a new "P" element', function () {
+it('You should create a new "p" element', function () {
     document.documentElement.innerHTML = html.toString();
     /*
         Here is how to mock the alert function:
@@ -48,28 +48,28 @@ it('You should create a new "P" element', function () {
     let _document = document.cloneNode(true);
 
     document.querySelector = jest.fn((selector) => {
-    if(selector === "P")return true
+    if(selector === "p")return true
     else return false
   });
-  expect(document.querySelector("P")).toBeTruthy()
+  expect(document.querySelector("p")).toBeTruthy()
 
 });
   
-it('The new "P" element should contain "Hello World" and a "yellow" background.', function () {
+it('The new "p" element should contain "Hello World" and a "yellow" background.', function () {
         document.documentElement.innerHTML = html.toString();
         
         let _document = document.cloneNode(true);
 
         document.querySelector = jest.fn((selector) => {
-          if(selector === "P")return true
+          if(selector === "p")return true
           else return false
         });
 
-        if(expect(document.querySelector("P")).toBeTruthy()){
+        if(expect(document.querySelector("p")).toBeTruthy()){
           document.querySelector = jest.fn((selector) => {
             return _document.querySelector(selector);
-          expect(document.querySelector("P").innerHTML).toBe("Hello World");
-          expect(document.querySelector("P").style.background).toBe("yellow");
+          expect(document.querySelector("p").innerHTML).toBe("Hello World");
+          expect(document.querySelector("p").style.background).toBe("yellow");
         });
         } 
   });

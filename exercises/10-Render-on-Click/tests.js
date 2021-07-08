@@ -28,7 +28,7 @@ test("You should use the querySelector to select the element with #id superDuper
     expect(document.querySelector).toHaveBeenCalledWith("#superDuperButton");
 
 });
-it('You should create a new "DIV" element', function () {
+it('You should create a new "div" element', function () {
     document.documentElement.innerHTML = html.toString();
     /*
         Here is how to mock the alert function:
@@ -38,10 +38,10 @@ it('You should create a new "DIV" element', function () {
     let _document = document.cloneNode(true);
 
     document.querySelector = jest.fn((selector) => {
-    if(selector === "DIV")return true
+    if(selector === "div")return true
     else return false
   });
-  expect(document.querySelector("DIV")).toBeTruthy()
+  expect(document.querySelector("div")).toBeTruthy()
 
 });
 

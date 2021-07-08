@@ -1,4 +1,4 @@
-var elem = document.createElement("H1");
+var elem = document.createElement("h1");
 elem.innerHTML = "Hello World";
 document.querySelector("#myDiv").appendChild(elem);
 

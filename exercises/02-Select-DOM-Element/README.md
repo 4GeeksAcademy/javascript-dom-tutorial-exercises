@@ -1,6 +1,6 @@
 # `02` Select DOM Element
 
-In this website, we have 2 elements: one `<H1>` with the `ID` `#theTitle` and a paragraph with the `ID` `#theParagraph`.
+In this website, we have 2 elements: one `<h1>` with the `id` `#theTitle` and a paragraph with the `id` `#theParagraph`.
 
 You can select any of the objects in the DOM with the `querySelector` function. 
 
@@ -24,7 +24,7 @@ console.log(aux.style.fontSize);
 
 ## 📝 Instructions:
 
-1. Prompt an alert with the `ID` of the `h1`.
+1. Prompt an alert with the `id` of the `h1`.
 
 
 
