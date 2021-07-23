@@ -2,7 +2,9 @@
 
 In this HTML website, inside of the `<body>` we have a `<div>` with the `id# 'myDiv' `
 
-Using Javascript, please change the background of that div to yellow.
+### 📝 Try this:
+
+- Using Javascript, please change the background of that `div` to `yellow`.
 
 You can SET any CSS style to any DOM element using the `element.style` property. 
 
@@ -16,8 +18,10 @@ let aux = document.querySelector('#anyElement');
 aux.style.background = "blue";
 ```
 
-Here you can read about the style DOM object: http://www.w3schools.com/jsref/dom_obj_style.asp
+### Here you can read about the style DOM object: 
+
+http://www.w3schools.com/jsref/dom_obj_style.asp
 
 ## 📝 Instructions:
 
-The background color of myDiv is green by default. Change the background color to yellow.
+1. The background color of `myDiv` is green by default. Change the `background` color to `yellow`.

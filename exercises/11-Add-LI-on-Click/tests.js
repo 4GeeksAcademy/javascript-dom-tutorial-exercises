@@ -16,7 +16,7 @@ test("You should use the querySelector to select the element with #id myList", f
     expect(js.toString().indexOf(expected) > -1).toBeTruthy();
 
 });
-test('the js code should contain an assignment line allow you create element LI', function () {
+test('the js code should contain an assignment line allow you create element li', function () {
     document.documentElement.innerHTML = html.toString();
     const expected = 'document.createElement';
     // we can read from the source code
