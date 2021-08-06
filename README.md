@@ -32,26 +32,31 @@ I strongly recommend doing this the tutorials in this order:
 
 ## Local Installation
 
-1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+ and python version 3+. This is the command to install the breathecode-cli
-```
-$ npm i breathecode-cli -g
+1) Make sure you have [learnpack](https://github.com/learnpack/learnpack-cli) installed and `node.js` version v14+ and jest v27. This is the command to install the learnpack-cli and jest:
+
+```sh
+$ npm i learnpack jest@27.0.6 -g
 ```
 
 2) Clone or download this repository. Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
 
-3) Start the tutorial/exercises by running the following command from the root of the project:
+3) Install the learnpack plugin to test and compile vanillajs:
+```sh
+$ learnpack plugins:install learnpack-dom
+```
+
+4) Start the tutorial/exercises by running the following command from the root of the project:
 
 ```sh
-$ npm i jest@24.8.0
-$ breathecode run
+$ learnpack start
 ```
 
 ## How are the exercises organized?
 
-Each exercise is a small react application containing the following files:
+Each exercise is a small vanillajs website containing the following files:
 
-1. **app.js:** represents the entry python file that will be executed by the computer.
-1. **index.html:** represents the entry website.
+1. **index.js:** represents the entry javascript file that will be executed when the website loads.
+1. **index.html:** represents the HTML entry for website.
 1. **style.css:** your website styles, they have to be imported from the index.html
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
