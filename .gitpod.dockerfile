@@ -2,4 +2,5 @@ FROM gitpod/workspace-full:latest
 
 USER gitpod
 
-RUN npm i jest@24.8.0 -g && npm i breathecode-cli@1.2.73 -g
+RUN npm i jest@27.0.6 -g
+RUN npm i learnpack@0.1.14 -g && learnpack plugins:install learnpack-dom@0.0.2
