@@ -23,7 +23,7 @@ Here is the code you need to print any string into the html document:
 
 ### Expected result:
 
-![](http://i.imgur.com/HpinbLP.png "")
+![](../../.learn/assets/12-1.png)
 
 ### :mag_right: Important:
 

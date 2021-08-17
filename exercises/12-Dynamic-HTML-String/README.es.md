@@ -24,7 +24,7 @@ Usando la función getFullYear del objeto `Date()`, cambia el contenido del stri
 
 ### Resultado esperado:
 
-![](http://i.imgur.com/HpinbLP.png "")
+![](../../.learn/assets/12-1.png)
 
 ### :mag_right: Importante:
 
