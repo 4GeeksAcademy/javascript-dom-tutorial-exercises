@@ -7,7 +7,7 @@ It is possible to retrieve all the childs of a DOM element, for that you need to
     let childs = list.childNodes;   
 ```
 
-![](http://i.imgur.com/LEyjPMW.png) 
+![](../../.learn/assets/09-1.png) 
 
 ## 📝 Instructions:
 

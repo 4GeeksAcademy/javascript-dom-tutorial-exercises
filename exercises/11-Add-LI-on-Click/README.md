@@ -14,4 +14,4 @@
 
 ### Expected result:
 
-![](http://i.imgur.com/Uv5q1tB.gif"")
+![](../../.learn/assets/11-1.gif)

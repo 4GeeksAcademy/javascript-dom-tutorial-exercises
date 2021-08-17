@@ -7,7 +7,7 @@ Es posible recuperar todos los elementos secundarios de un elemento DOM, para es
     let childs = list.childNodes;   
 ```
 
-![](http://i.imgur.com/LEyjPMW.png"") 
+![image 9-1](../../.learn/assets/09-1.png) 
 
 ## 📝 Instrucciones:
 

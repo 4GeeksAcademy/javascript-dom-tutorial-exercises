@@ -20,4 +20,4 @@ the users clicks on the `#superDuperButton`
 
 ### Expected result:
 
-![](http://i.imgur.com/fJk4Rrl.gif"")
+![](../../.learn/assets/10-1.gif)

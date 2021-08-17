@@ -8,4 +8,4 @@
 
 ### Expected result:
 
-![](https://storage.googleapis.com/replit/images/1497055203778_4a084e5762b72d8770dac1c95941de0c.gif)
+![image](../../.learn/assets/13-1.gif)

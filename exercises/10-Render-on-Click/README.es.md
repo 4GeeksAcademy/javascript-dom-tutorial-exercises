@@ -1,7 +1,7 @@
 # `10` Render on Clic
 
 Las interacciones del usuario normalmente requieren cambios en el DOM. Usamos **eventos** para eso.
-Si no te sientes cómodo con los **eventos**, completa primero todos [los ejercicios aquí](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises).
+Si no te sientes cómodo con los **eventos**, completa primero todos [estos ejercicios aquí](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises).
 
 ## 📝 Instrucciones:
 
@@ -21,4 +21,4 @@ los usuarios hagan clic en el `#superDuperButton`
 
 ### Resultado Esperado:
 
-![](http://i.imgur.com/fJk4Rrl.gif"")
+![](../../.learn/assets/10-1.gif)
