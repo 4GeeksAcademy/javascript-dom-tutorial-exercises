@@ -20,7 +20,7 @@ Aquí está el código que necesitas para imprimir cualquier string en el docume
 ```
 ## 📝 Instrucciones:
 
-Usando la función getFullYear del objeto `Date()`, cambia el contenido del string de la variable `auxString` para que imprima el año de la fecha actual en el HTML.
+Usando la función getFullYear del objeto `Date()`, cambia el contenido del string de la variable `myString` para que imprima el año de la fecha actual en el HTML.
 
 ### Resultado esperado:
 
