@@ -25,7 +25,7 @@ it('The website DOM must contain 3 <li> items' , function () {
     let children = document.querySelector("ul").childNodes;
     let count = 0;
     for(let i = 0; i<children.length;i++){
-        if(children[i].nodeName == "li") count++;
+        if(children[i].nodeName == "LI") count++;
     }
     expect(count).toBe(3);
 });
