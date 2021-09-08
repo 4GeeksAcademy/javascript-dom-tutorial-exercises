@@ -72,10 +72,12 @@ test('the js code should contain an assignment line allow you change background 
 
 test('the js code should contain an assignment line allow you add div into body', function () {
   document.documentElement.innerHTML = html.toString();
-    const expected = 'document.body.appendChild';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+    const expected = 'document.body';
+    const expected1 = 'document.querySelector("body")';
+    const expected2 = "document.querySelector('body')";
+    expect(js.toString().indexOf(expected) > -1 || js.toString().indexOf(expected1) > -1 || js.toString().indexOf(expected2) > -1 ).toBeTruthy();
+    const expected3 = 'appendChild';
+    expect(js.toString().indexOf(expected3) > -1).toBeTruthy();
 });
 
 
@@ -85,7 +87,6 @@ test('the js code should contain an assignment line allow you add div into body'
 test('the html code should contain a script tag', function () {
     document.documentElement.innerHTML = html.toString();
     // we can read from the source code
-    console.log(html.toString());
     expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
 
     //or use query selector to compare hoy mane scriptags do we have
