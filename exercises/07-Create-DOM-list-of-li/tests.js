@@ -7,8 +7,6 @@ const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
 
 jest.dontMock('fs');
 
-
-
 it('The website DOM must contain 3 <li> items' , function () {
     document.documentElement.innerHTML = html.toString();
     let _document = document.cloneNode(true);
@@ -25,7 +23,7 @@ it('The website DOM must contain 3 <li> items' , function () {
     let children = document.querySelector("ul").childNodes;
     let count = 0;
     for(let i = 0; i<children.length;i++){
-        if(children[i].nodeName == "li") count++;
+        if(children[i].nodeName == "LI") count++;
     }
     expect(count).toBe(3);
 });
