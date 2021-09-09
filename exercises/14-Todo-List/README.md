@@ -16,4 +16,4 @@ You don't have to edit anything from the HTML nor the CSS, only the javascript!
 
 - Analize the HTML code, how the list is design and built, what do you have to add into the HTML if you want a new item appear inside the list?
 
-- If we were to delete any particular element, we would have to listen to the click handler on the trash icon and then delete the entier `li` in which the icon is included: http://lmgtfy.com/?q=how+to+delete+an+li+form+a+list+js
+- If we were to delete any particular element, we would have to listen to the click handler on the trash icon and then delete the entire `li` in which the icon is included: http://lmgtfy.com/?q=how+to+delete+an+li+form+a+list+js
