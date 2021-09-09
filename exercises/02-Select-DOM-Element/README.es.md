@@ -28,4 +28,4 @@ console.log(aux.style.fontSize);
 
 ### 💡 Pista:
 
-Aquí puedes leer más sobre la propiedad id de cualquier elemento DOM: http://www.w3schools.com/jsref/prop_html_id.asp
++ Aquí puedes leer más sobre la propiedad id de cualquier elemento DOM: http://www.w3schools.com/jsref/prop_html_id.asp
