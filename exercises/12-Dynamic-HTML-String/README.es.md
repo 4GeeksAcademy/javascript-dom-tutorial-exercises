@@ -8,7 +8,7 @@ Por favor, dale un vistazo a la siguiente string:
     let myString = "<p>Hello!</p> <strong>My friend</strong>";
 ```
 
-Como humanos, sabemos que este string tiene el formato como un HTML porque tiene una etiqueta `<p>` y una `<strong>` dentro. Pero javascript no sabe eso, javascript solo entiende un string como una serie de caracteres, no importa si los caracteres se configuran de manera similar a HTML.
+Como seres humanos, sabemos que este string tiene el formato como un HTML porque tiene una etiqueta `<p>` y una `<strong>` dentro. Pero javascript no sabe eso, javascript solo entiende un string como una serie de caracteres, no importa si los caracteres se configuran de manera similar a HTML.
 
 Pero, ¿qué pasa si se escribe ese string en un documento HTML durante el tiempo de ejecución? El navegador interpretará ese string como HTML (es lo que hacen los navegadores) y la representará como HTML, eliminando las etiquetas y aplicando su formato respectivo en el texto restante.
 
@@ -28,4 +28,4 @@ Usando la función getFullYear del objeto `Date()`, cambia el contenido del stri
 
 ### :mag_right: Importante:
 
-Imprime el año actual utilizando el objeto de fecha, no establezcas el string en un año en particular, agrega(`append`) el año actual al final.
++ Imprime el año actual utilizando el objeto de fecha, no establezcas el string en un año en particular, agrega(`append`) el año actual al final.

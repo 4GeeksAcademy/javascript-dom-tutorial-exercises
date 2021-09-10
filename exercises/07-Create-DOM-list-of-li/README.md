@@ -19,4 +19,4 @@ A great way to create HTML structures for your website is to concatenate several
 
 ### 💡 Hint:
 
-Remember that the white spaces and indentation are ignored by the browser's interpreter.
++ Remember that the white spaces and indentation are ignored by the browser's interpreter.

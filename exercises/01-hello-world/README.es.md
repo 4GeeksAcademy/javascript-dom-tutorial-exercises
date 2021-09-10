@@ -8,7 +8,7 @@ Pero todo comienza con un Hello World, por supuesto. 😄
 
 Este ejercicio contiene un archivo HTML, un CSS y un archivo JS, abre tu archivo JS y complétalo con el código para generar una alerta con `Hello World`.
 
-Pista:
+## :bulb: Pista:
 
 - Compila y obten un vista previa del código del ejercicio. Se abrirá en una nueva ventana.
 
