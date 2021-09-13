@@ -7,7 +7,7 @@ A great way to create HTML structures for your website is to concatenate several
 ```
 ## 📝 Instructions:
 
-1. SET the `liststring` variable with the value needed to have the following HTML as the `#myDiv's`innerHTML:
+1. SET the `liststring` variable with the value needed to have the following HTML as the `body`'s innerHTML:
 
 ```html
     <ul>

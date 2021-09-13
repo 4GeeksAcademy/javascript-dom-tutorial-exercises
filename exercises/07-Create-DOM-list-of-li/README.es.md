@@ -7,7 +7,7 @@ Una excelente manera de crear estructuras HTML para tu sitio web es concatenar v
 ```
 ## 📝 Instrucciones:
 
-1. ESTABLECE la variable `liststring` con el valor necesario para que el siguiente código html se imprima en `#myDiv's` usando innerHTML:
+1. ESTABLECE la variable `liststring` con el valor necesario para que el siguiente código html se imprima en el `body` usando innerHTML:
 
 ```html
     <ul>
