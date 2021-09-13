@@ -34,7 +34,7 @@ it('the js code should contain an assignment line creating text node with value 
 
     //and I expect the alert to be already called.
     //expect(document.createElement.mock.calls.length).toBe(1);
-    expect(document.querySelector("h1").innerHTML).toBe("Hello World");
+    expect(document.querySelector("p").innerHTML).toBe("Hello World");
 
 });
 
