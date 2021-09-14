@@ -25,10 +25,6 @@ console.log(aux.style.fontSize);
 ## 📝 Instructions:
 
 1. Prompt an alert with the `id` of the `h1`.
-
-
-
-
 ### 💡 Hint:
 
 Here you can read more about the id property of any DOM element: http://www.w3schools.com/jsref/prop_html_id.asp

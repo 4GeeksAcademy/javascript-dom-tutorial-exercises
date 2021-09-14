@@ -9,8 +9,7 @@ jest.dontMock('fs');
 
 it('The website DOM must contain 3 <li> items' , function () {
     const file = require("./index.js");
-
-    let lis = document.querySelectorAll("li");
+    let lis = document.querySelectorAll("ul > li");
     expect(lis.length).toBe(3);
 });
 

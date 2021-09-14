@@ -18,7 +18,7 @@ After you create any element, you have to add it to the website DOM if you want 
 
  The innerHTML property of any DOM element is used to set the HTML content that is going to be set inside of that HTML TAG.
 
-No te preocupes ¡no es tan enredado como suena!
+Don't worry, it's not that complicated!
 
 
 ## 📝 Instructions:
