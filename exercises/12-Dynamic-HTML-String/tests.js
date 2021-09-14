@@ -19,24 +19,24 @@ test('the html code should contain a script tag', function () {
 });
 
 test('the js code should contain an assignment line allow you instance a new object from Class Date', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'new Date();';
+    document.documentElement.innerHTML = js.toString();
+    const expected = 'new Date()';
     // we can read from the source code
-    console.log(html.toString());
-    expect(html.toString().indexOf(expected) > -1).toBeTruthy();
+    console.log(js.toString());
+    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
 });
 
 test('the js code should contain an assignment line allow you use a getFullYear() method', function () {
-    document.documentElement.innerHTML = html.toString();
+    document.documentElement.innerHTML = js.toString();
     const expected = 'getFullYear()';
     // we can read from the source code
-    console.log(html.toString());
-    expect(html.toString().indexOf(expected) > -1).toBeTruthy();
+    console.log(js.toString());
+    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
 });
 test('You should use the document.write method', function () {
-    document.documentElement.innerHTML = html.toString();
+    document.documentElement.innerHTML = js.toString();
     const expected = 'document.write';
     // we can read from the source code
-    console.log(html.toString());
-    expect(html.toString().indexOf(expected) > -1).toBeTruthy();
+    console.log(js.toString());
+    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
 });
