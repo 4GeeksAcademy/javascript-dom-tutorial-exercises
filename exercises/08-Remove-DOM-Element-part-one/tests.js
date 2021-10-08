@@ -1,45 +1,31 @@
-
+jest.dontMock('fs');
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 const js = fs.readFileSync(path.resolve(__dirname, './index.js'), 'utf8');
 const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
+document.documentElement.innerHTML = html.toString();
 
-jest.dontMock('fs');
+let _document = document.cloneNode(true);
+document.querySelector = jest.fn((selector) => {
+    return _document.querySelector(selector);
+});
 
+let li = _document.querySelector("ul li:nth-child(2)")
+let _li = li.cloneNode(true);
 
-it('The function removeChild must have been called with the element #secondElement' , function () {
-    document.documentElement.innerHTML = html.toString();
-    let _document = document.cloneNode(true);
-    
-    document.querySelector = jest.fn((selector) => {
-        return _document.querySelector(selector);
-    });
-    let elmId = null;
-    HTMLUListElement.prototype.removeChild = jest.fn((_elm) => {
-        elmId = _elm.id ;
-    });
-    
+li.parentNode.removeChild = jest.fn((elm) => null);
+
+const file = require("./index.js");
+
+test(`Please use the function querySelector to find the #secondElement`, function () {
     //then I import the index.js (which should have the alert() call inside)
-    const file = require("./index.js");
-    expect(HTMLUListElement.prototype.removeChild).toHaveBeenCalled();
-    expect(elmId).toBe("secondElement");
+    expect(document.querySelector).toHaveBeenCalledWith("#secondElement");
 });
 
-test('You should use the removeChild function', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'parentNode.removeChild';
-    // we can read from the source code
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+test(`Use the function removeChild and pass the second LI element to it`, function () {
+
+    //then I import the index.js (which should have the alert() call inside)
+    expect(li.parentNode.removeChild).toHaveBeenCalledWith(li);
 });
 
-test('The html code should contain a script tag', function () {
-    document.documentElement.innerHTML = html.toString();
-    // we can read from the source code
-    
-    expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
-
-    //or use query selector to compare hoy mane scriptags do we have
-    const scripts = document.querySelectorAll("script");
-    expect(scripts.length).toBe(1);
-});

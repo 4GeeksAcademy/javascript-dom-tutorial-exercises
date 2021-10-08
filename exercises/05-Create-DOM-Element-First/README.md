@@ -34,3 +34,7 @@ Don't worry, it's not that complicated!
 - Remember to setup the `yellow` style.
 
 - `appendChild` to the document.
+
+- At the end your website should look like this:
+
+![exercise 5 expected preview](../../.learn/assets/05.png)

@@ -7,82 +7,41 @@ const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
 
 jest.dontMock('fs');
 
+document.documentElement.innerHTML = html.toString();
+let _d = document.cloneNode(true);
+let fakeP = {
+  innerHTML: "",
+  style: {
+    background: ""
+  }
+}
+document.createElement = jest.fn((arg) => fakeP);
+document.body.appendChild = jest.fn((arg) => null);
+const file = require("./index.js");
 
+// it('use the function createElement to create a p tag', function () {
+//   expect(document.createElement).toHaveBeenCalledWith("p");
+// });
 
-it('the js code should contain an assignment line creating element h1', function () {
-  document.documentElement.innerHTML = html.toString();
-  let _document = document.cloneNode(true);
-
-  document.querySelector = jest.fn((selector) => {
-    if(selector === "h1")return true
-    else return false
-  });
-  expect(document.querySelector("h1")).toBeTruthy();
+it('The new "p" element should contain "Hello World" ', function () {
+      expect(fakeP.innerHTML.toLocaleLowerCase()).toBe("hello world");
 });
 
-it('the js code should contain an assignment line creating text node with value "Hello World"', function () {
+it('The new "p" element should have a "yellow" background.', function () {
+      expect(fakeP.style.background.toLocaleLowerCase()).toBe("yellow");
+});
+
+it('Use the appendChile function to add the <P> into the document.body', function () {
+      expect(document.body.appendChild).toHaveBeenCalledWith(fakeP);
+});
+
+it('the html code should contain a script tag', function () {
     document.documentElement.innerHTML = html.toString();
-    
-    let _document = document.cloneNode(true);
+    // we can read from the source code
+    //console.log(html.toString());
+    expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
 
-        document.querySelector = jest.fn((selector) => {
-    return _document.querySelector(selector);
+    //or use query selector to compare hoy mane scriptags do we have
+    const scripts = document.querySelectorAll("script");
+    expect(scripts.length).toBe(1);
 });
-
-    //then I import the index.js (which should have the alert() call inside)
-    const file = require("./index.js");
-
-    //and I expect the alert to be already called.
-    //expect(document.createElement.mock.calls.length).toBe(1);
-    expect(document.querySelector("p").innerHTML).toBe("Hello World");
-
-});
-
-it('You should create a new "p" element', function () {
-    document.documentElement.innerHTML = html.toString();
-    /*
-        Here is how to mock the alert function:
-        https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
-    */
-    //console.log(document);
-    let _document = document.cloneNode(true);
-
-    document.querySelector = jest.fn((selector) => {
-    if(selector === "p")return true
-    else return false
-  });
-  expect(document.querySelector("p")).toBeTruthy()
-
-});
-  
-it('The new "p" element should contain "Hello World" and a "yellow" background.', function () {
-        document.documentElement.innerHTML = html.toString();
-        
-        let _document = document.cloneNode(true);
-
-        document.querySelector = jest.fn((selector) => {
-          if(selector === "p")return true
-          else return false
-        });
-
-        if(expect(document.querySelector("p")).toBeTruthy()){
-          document.querySelector = jest.fn((selector) => {
-            return _document.querySelector(selector);
-          expect(document.querySelector("p").innerHTML).toBe("Hello World");
-          expect(document.querySelector("p").style.background).toBe("yellow");
-        });
-        } 
-  });
-
-
-
-    it('the html code should contain a script tag', function () {
-        document.documentElement.innerHTML = html.toString();
-        // we can read from the source code
-        //console.log(html.toString());
-        expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
-
-        //or use query selector to compare hoy mane scriptags do we have
-        const scripts = document.querySelectorAll("script");
-        expect(scripts.length).toBe(1);
-    });

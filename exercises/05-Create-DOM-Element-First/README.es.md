@@ -33,4 +33,8 @@ Don't worry you''ll get there!
 
 - Recuerda configurar el estilo amarillo (`yellow`).
 
-- Agrega el `appendChild` al documento.
+- Agrega el elemento p al document utilizanod la funcion `appendChild`.
+
+- Al final tu website deberia verse asi:
+
+![exercise 5 expected preview](../../.learn/assets/05.png)

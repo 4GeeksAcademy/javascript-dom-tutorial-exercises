@@ -13,7 +13,7 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('alert() function should be called with Hello World', function () {
+    it('alert() function should be called with "Hello World" (case sensitive)', function () {
 
         /*
             Here is how to mock the alert function:

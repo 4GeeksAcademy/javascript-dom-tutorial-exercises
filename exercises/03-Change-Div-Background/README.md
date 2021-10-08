@@ -6,7 +6,7 @@ In this HTML website, inside of the `<body>` we have a `<div>` with the `id# 'my
 
 - Using Javascript, please change the background of that `div` to `yellow`.
 
-You can SET any CSS style to any DOM element using the `element.style` property. 
+You can set any CSS style to any DOM element using the `element.style` property. 
 
 For example, to change the background of an element we need to set the `element.style.background` property to the color we want.
 

@@ -13,7 +13,7 @@ beforeEach(() => {
     document.documentElement.innerHTML = html.toString();
 });
 afterEach(() => { jest.resetModules(); });
-const expected = 'aux.style.float = "right";';
+
 it("The querySelector function should be called once. Don't change the existing code!", function () {
     /*
         Here is how to mock the alert function:
