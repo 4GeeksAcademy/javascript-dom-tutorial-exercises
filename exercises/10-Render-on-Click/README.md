@@ -1,7 +1,7 @@
 # `10` Render on Click
 
 User interactions normally require changes in the DOM. We use **events** for that. 
-If you don't feel comfortable with **events** please complete first all [the exercises here](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises.
+If you don't feel comfortable with **events** please complete first all [the exercises here](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises).
 
 ## 📝 Instructions:
 
