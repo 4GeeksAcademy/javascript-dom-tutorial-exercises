@@ -15,17 +15,15 @@ Ahora que tenemos nuestro elemento `h1` guardado en `aux`, podemos acceder a cua
 
 ```js
 let aux = document.querySelector('#theTitle');
-console.log(aux.style.fontSize);
+console.log(window.getComputedStyle(aux).fontSize);
 ```
 
-### Aquí puedes leer más sobre esto:
-
- [lee más](https://www.w3schools.com/jsref/prop_style_fontsize.asp)
+Aquí puedes [leer más al respecto](https://www.w3schools.com/jsref/prop_style_fontsize.asp)
 
 ## 📝 Instrucciones:
 
 1. Muestra una alerta con la `id` de `h1`.
 
-### 💡 Pista:
+## 💡 Pista:
 
 + Aquí puedes leer más sobre la propiedad id de cualquier elemento DOM: http://www.w3schools.com/jsref/prop_html_id.asp

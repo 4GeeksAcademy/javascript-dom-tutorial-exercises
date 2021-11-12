@@ -18,13 +18,12 @@ let aux = document.querySelector('#theTitle');
 console.log(aux.style.fontSize);
 ```
 
-
-Note: Here you can read more about it: [read more](https://www.w3schools.com/jsref/prop_style_fontsize.asp)
+Here you can read more about it: [read more](https://www.w3schools.com/jsref/prop_style_fontsize.asp)
 
 ## 📝 Instructions:
 
 1. Prompt an alert with the `id` of the `h1`.
 
-### 💡 Hint:
+## 💡 Hint:
 
 Here you can read more about the id property of any DOM element: http://www.w3schools.com/jsref/prop_html_id.asp
