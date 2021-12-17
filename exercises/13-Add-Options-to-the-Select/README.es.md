@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Usa la propiedad `innerHTML` para agregar todos estos países a la selección `#mySelect`.
+1. Usa el método `appendChild` para agregar todos estos países a la selección `#mySelect`.
 
 2. Luego, agrega un listener al evento `'change'` y muestra un alerta con el país seleccionado cuando el usuario lo seleccione.
 

@@ -1,58 +1,52 @@
-
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 const js = fs.readFileSync(path.resolve(__dirname, './index.js'), 'utf8');
-const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
+const { getByTitle, fireEvent, waitFor } = require('@testing-library/dom')
 
 jest.dontMock('fs');
 
-test("When you add a new task you should select the ul element!", function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'document.querySelector("ul")';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+document.documentElement.innerHTML = html.toString();
 
-});
-test("When you add a new task you should use innerHTML!", function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = '.innerHTML';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+let _document = document.cloneNode(true);
 
+document.createElement = jest.fn((selector) => {
+    return _document.createElement(selector);
 });
 
-test('When you remove a task you should first select all of them using querySelectorAll', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'document.querySelectorAll(".fa-trash")';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-});
-test('Once you selected all, remember to add an event listener with click event', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'addEventListener("click"';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-});
-test('You should remove the selected child.', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = '.removeChild';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+require(path.resolve(__dirname, './index.js'))
+
+test('The createElement function should have been called with li to create the li tag', () => {
+    // We test it with regex because toHaveBeenCalledWith is case sensitive.
+    let expected = /document.\s*createElement\s*\(\s*(("li"|'li')|("LI"|'LI'))\s*\)/gm;
+    expect(expected.test(js.toString())).toBeTruthy();
+})
+
+test('You should use addEventListener', function () {
+    let expected = /.\s*addEventListener\s*\(/gm
+    expect(expected.test(js.toString())).toBeTruthy();
 });
 
-test('the html code should contain a script tag', function () {
+test('You should create an element when you press enter on the input.', async () => {
+    let input = document.querySelector("#addToDo")
+    fireEvent.keyDown(input, { key: "Enter", keyCode: 13 })
+    await waitFor(() => expect(document.createElement.mock.calls.length).toBe(1))
+});
 
-    // we can read from the source code
-    console.log(html.toString());
-    expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
+test('You should append an element to the ul when you press enter on the input.', async () => {
+    let input = document.querySelector("#addToDo")
+    let ul = document.querySelector("ul")
+    fireEvent.keyDown(input, { key: "Enter", keyCode: 13 })
+    await waitFor(() => expect(ul.children.length).toBe(5))
+});
 
-    //or use query selector to compare hoy mane scriptags do we have
-    const scripts = document.querySelectorAll("script");
-    expect(scripts.length).toBe(1);
+test('You should append an element to the ul when you press enter on the input.', async () => {
+    let input = document.querySelector("#addToDo")
+    let ul = document.querySelector("ul")
+    let trash = ul.children
+
+    let icon = trash[1].querySelector("span").querySelector(".fa-trash")
+    fireEvent.click(icon)
+    await waitFor(() => expect(ul.children.length).toBe(4))
+
 });

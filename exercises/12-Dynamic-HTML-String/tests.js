@@ -1,42 +1,37 @@
-
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 const js = fs.readFileSync(path.resolve(__dirname, './index.js'), 'utf8');
-const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
 
 jest.dontMock('fs');
 
-test('the html code should contain a script tag', function () {
-    document.documentElement.innerHTML = html.toString();
-    // we can read from the source code
-    console.log(html.toString());
-    expect(html.toString().indexOf(`script`) > -1).toBeTruthy();
+document.documentElement.innerHTML = html.toString();
 
-    //or use query selector to compare hoy mane scriptags do we have
-    const scripts = document.querySelectorAll("script");
-    expect(scripts.length).toBe(1);
+let _document = document.cloneNode(true);
+
+document.write = jest.fn((arg) => {
+    return _document.write(arg);
+})
+
+require(path.resolve(__dirname, './index.js')) 
+
+test('The html code should contain a script tag', function () {
+    let script = document.querySelector("script")
+    expect(script).toBeTruthy();
 });
 
-test('the js code should contain an assignment line allow you instance a new object from Class Date', function () {
+test('The js code should contain an assignment line allow you instance a new object from Class Date', function () {
     document.documentElement.innerHTML = js.toString();
-    const expected = 'new Date()';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+    const expected = /new\s+Date\s*\(\s*\)/gm;
+    expect(expected.test(js.toString())).toBeTruthy();
 });
 
-test('the js code should contain an assignment line allow you use a getFullYear() method', function () {
+test('The getFullYear() method should have been called once', function () {
     document.documentElement.innerHTML = js.toString();
-    const expected = 'getFullYear()';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+    const expected = /\.\s*getFullYear\s*\(\s*\)/gm;
+    expect(expected.test(js.toString())).toBeTruthy();
 });
+
 test('You should use the document.write method', function () {
-    document.documentElement.innerHTML = js.toString();
-    const expected = 'document.write';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+    expect(document.write.mock.calls.length).toBe(1)
 });

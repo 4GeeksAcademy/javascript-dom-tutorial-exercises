@@ -1,55 +1,58 @@
-
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 const js = fs.readFileSync(path.resolve(__dirname, './index.js'), 'utf8');
-const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
+const { getByTitle, fireEvent, waitFor } = require('@testing-library/dom')
 
 jest.dontMock('fs');
 
-test("You should use the querySelector to select the element with #id mySelect", function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'document.querySelector("#mySelect")';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+document.documentElement.innerHTML = html.toString();
 
+let _document = document.cloneNode(true);
+
+document.createElement = jest.fn((selector) => {
+    return _document.createElement(selector);
 });
-test('You should create an element ("option")', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'document.createElement("option")';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-});
+
+global.alert = jest.fn((text) => text);
+
+//import js file after loading the HTML
+require(path.resolve(__dirname, './index.js'))
+
+test('The createElement function should have been called with option to create the option tag', () => {
+    // We test it with regex because toHaveBeenCalledWith is case sensitive.
+    let expected = /document.\s*createElement\s*\(\s*(("option"|'option')|("OPTION"|'OPTION'))\s*\)/gm;
+    expect(expected.test(js.toString())).toBeTruthy();
+})
+
+test('The createElement function should have been called seven times', () => {
+    expect(document.createElement.mock.calls.length).toBe(7)
+})
 
 test('You should append all the countries you created, to #mySelect element', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'document.querySelector("#mySelect").appendChild';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+    let children = document.querySelector("#mySelect").children
+    expect(children.length).toBe(8)
 });
 
-test('the js code should contain an assignment line allow you add li to list', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'appendChild';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+test('You should use the appendChild() method in order to add the elements into the <select> tag', function () {
+    let expected = /.\s*appendChild\s*\(\s*[a-zA-Z0-9\-\_]+\s*\)/gm;
+    expect(expected.test(js.toString())).toBeTruthy();
 });
+
 test('You should use addEventListener', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'addEventListener';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-});
-test('You should use an alert to print the selected country.', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'alert';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+    let expected = /.\s*addEventListener\s*\(/gm
+    expect(expected.test(js.toString())).toBeTruthy();
 });
 
+test('You should use an alert when the select value changes.',  async () => {
+    let select = document.querySelector("#mySelect")
+    fireEvent.change(select)
+    await waitFor(() => expect(alert.mock.calls.length).toBe(1))
+});
+
+test('You should use an alert to print the selected country.',  async () => {
+    let select = document.querySelector("#mySelect")
+    fireEvent.change(select)
+    await waitFor(() => expect(alert).toHaveBeenCalledWith(select.value))
+    
+});
