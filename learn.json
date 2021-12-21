@@ -3,6 +3,7 @@
     "grading": "isolated",
     "repository": "https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises",
     "title": "Learn how to manipulate The DOM with JS",
+    "preview": "https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/blob/master/preview.png?raw=true",
     "description": "Step by step, go over all the most important DOM concepts and methods: Use javascript to manipulate styles, html elements.",
     "duration": 8,
     "difficulty": "easy",
