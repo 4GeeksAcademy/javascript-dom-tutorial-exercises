@@ -26,7 +26,7 @@ test('the js code should contain an assignment line allow you create element li'
 
 test('the js code should contain an assignment line allow you assign Fourth Element with innerHTML', function () {
     document.documentElement.innerHTML = html.toString();
-    const expected = 'innerHTML = "Forth element";';
+    const expected = 'innerHTML = "Fourth element";';
     // we can read from the source code
     console.log(js.toString());
     expect(js.toString().indexOf(expected) > -1).toBeTruthy();
