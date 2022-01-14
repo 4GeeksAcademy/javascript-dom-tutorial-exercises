@@ -19,4 +19,4 @@ It is possible to retrieve all the childs of a DOM element, for that you need to
 
 ### :mag_right: Important:
 
-+ If you wonder why you need to use the 3 to remove the second `li` instead of the 2 index, here is the answer: http://stackoverflow.com/questions/24589908/childnode-of-li-element-gives-text-ul-ul-text
++ If you wonder why you need to use the 1 to remove the second `li` instead of the 2 index, here is the answer: http://stackoverflow.com/questions/24589908/childnode-of-li-element-gives-text-ul-ul-text
