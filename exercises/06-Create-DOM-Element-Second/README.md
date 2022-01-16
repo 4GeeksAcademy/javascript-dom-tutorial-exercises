@@ -10,7 +10,7 @@ The `innerHTML` property is used to SET the html content inside of any current D
 
 ## 📝 Instructions:
 
-1. Insert an image with the source "http://placehold.it/350x150" into the `body`.
+1. Insert an image with the source "https://via.placeholder.com/350x150" into the `body`.
 
 ### 💡 Hint:
 
