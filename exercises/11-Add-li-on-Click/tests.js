@@ -1,52 +1,45 @@
+jest.dontMock('fs');
 
 const fs = require('fs');
 const path = require('path');
-const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
-const js = fs.readFileSync(path.resolve(__dirname, './index.js'), 'utf8');
+const {
+    queryByText,
+    // Tip: all queries are also exposed on an object
+    // called "queries" which you could import here as well
+    fireEvent,
+    waitFor,
+  } = require('@testing-library/dom')
+  
 const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
+const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 
-jest.dontMock('fs');
+document.documentElement.innerHTML = html.toString();
 
+let _document = document.cloneNode(true);
 
-test("You should use the querySelector to select the element with #id myList", function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'document.querySelector("#myList")';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-
-});
-test('the js code should contain an assignment line allow you create element li', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'document.createElement';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
+document.createElement = jest.fn((selector) => {
+    return _document.createElement(selector);
 });
 
-test('the js code should contain an assignment line allow you assign Fourth Element with innerHTML', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'innerHTML = "Forth element";';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-});
+require(path.resolve(__dirname, './index.js')) 
 
-test('the js code should contain an assignment line allow you add li to list', function () {
-    document.documentElement.innerHTML = html.toString();
-    const expected = 'appendChild';
-    // we can read from the source code
-    console.log(js.toString());
-    expect(js.toString().indexOf(expected) > -1).toBeTruthy();
-});
+test('<button> tag must exist', () => {
+    // Get form elements by their label text.   
+    // An error will be thrown if one cannot be found (accessibility FTW!)
+    const btn = queryByText(document, 'Click me');
+    expect(btn).toBeTruthy();
+})
 
-test('the html code should contain a script tag', function () {
-    document.documentElement.innerHTML = html.toString();
-    // we can read from the source code
-    console.log(html.toString());
-    expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
+test('<li> must be added into the <ul> after <button> is clicked', async () => {
+    // Get form elements by their label text.   
+    // An error will be thrown if one cannot be found (accessibility FTW!)
+    const btn = queryByText(document, 'Click me')
+    fireEvent.click(btn)
 
-    //or use query selector to compare hoy mane scriptags do we have
-    const scripts = document.querySelectorAll("script");
-    expect(scripts.length).toBe(1);
-});
+    let ul = document.querySelector('#myList')
+    await waitFor(() => expect(ul.childElementCount).toBe(4))
+})
+
+test('The createElement function should have been called once', () => {
+    expect(document.createElement.mock.calls.length).toBe(1)
+})

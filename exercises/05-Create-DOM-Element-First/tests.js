@@ -31,7 +31,7 @@ it('The new "p" element should have a "yellow" background.', function () {
       expect(fakeP.style.background.toLocaleLowerCase()).toBe("yellow");
 });
 
-it('Use the appendChile function to add the <P> into the document.body', function () {
+it('Use the appendChild function to add the <P> into the document.body', function () {
       expect(document.body.appendChild).toHaveBeenCalledWith(fakeP);
 });
 
