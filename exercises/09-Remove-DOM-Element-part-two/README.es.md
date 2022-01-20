@@ -19,4 +19,4 @@ Es posible recuperar todos los elementos secundarios de un elemento DOM, para es
 
 ### :mag:_right: Importante:
 
-+ Si te preguntas por qué necesitas usar el 3 para eliminar el segundo `li` en lugar del índice 2, aquí está la respuesta: http://stackoverflow.com/questions/24589908/childnode-of-li-element-gives-text-ul-ul-text
++ Si te preguntas por qué necesitas usar el 1 para eliminar el segundo `li` en lugar del índice 2, aquí está la respuesta: http://stackoverflow.com/questions/24589908/childnode-of-li-element-gives-text-ul-ul-text
