@@ -10,7 +10,7 @@ La propiedad `innerHTML` se usa para ESTABLECER el contenido html dentro de cual
 
 ## 📝 Instrucciones:
 
-1. Inserta una imagen con la fuente "http://placehold.it/350x150" en el `body`.
+1. Inserta una imagen con la fuente "https://via.placeholder.com/350x150" en el `body`.
 
 ### 💡 Pista:
 
