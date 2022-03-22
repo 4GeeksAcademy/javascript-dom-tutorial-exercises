@@ -1,8 +1,6 @@
 # `08` Remove DOM Element Part One
 
-If you want to remove an element from the DOM, you use the `removeChild` function.
-
-The challenge behind this function, is that it needs to be called from the parent of the element that you want to remove. For example:
+If you want to remove an element from the DOM, you use the `removeChild` function. The challenge behind this function, is that it needs to be called from the parent of the element that you want to remove. For example:
 
 ```html
     <ul>

@@ -1,4 +1,4 @@
-# `09` Eliminar elemento DOM: Parte dos
+# `09` Remove DOM element: Part two
 
 Es posible recuperar todos los elementos secundarios de un elemento DOM, para eso debes usar la propiedad `childNodes` del elemento. Por ejemplo:
 
@@ -13,10 +13,8 @@ Es posible recuperar todos los elementos secundarios de un elemento DOM, para es
 
 1. Usando la propiedad `childNodes`, elimina el segundo LI de la lista `#parentLi`.
 
-### 💡 Pista:
+## 💡 Pistas:
 
-`childNodes` devuelve un arreglo de `li`, puedes acceder al segundo elemento de ese arreglo y eliminarlo del DOM.
-
-### :mag:_right: Importante:
++ `childNodes` devuelve un array de `li`, puedes acceder al segundo elemento de ese array y eliminarlo del DOM.
 
 + Si te preguntas por qué necesitas usar el 1 para eliminar el segundo `li` en lugar del índice 2, aquí está la respuesta: http://stackoverflow.com/questions/24589908/childnode-of-li-element-gives-text-ul-ul-text

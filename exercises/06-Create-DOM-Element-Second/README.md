@@ -12,6 +12,6 @@ The `innerHTML` property is used to SET the html content inside of any current D
 
 1. Insert an image with the source "https://via.placeholder.com/350x150" into the `body`.
 
-### 💡 Hint:
+## 💡 Hint:
 
-- Here is the documentation of the innerHTML property: http://www.w3schools.com/jsref/prop_html_innerhtml.asp
++ Here is the documentation of the innerHTML property: http://www.w3schools.com/jsref/prop_html_innerhtml.asp

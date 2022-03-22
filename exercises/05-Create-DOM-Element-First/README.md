@@ -14,27 +14,28 @@ After you create any element, you have to add it to the website DOM if you want 
     document.body.appendChild(elem);
 ```
 
-### :mag_right: Important:
+## 🔎 Important:
 
- The innerHTML property of any DOM element is used to set the HTML content that is going to be set inside of that HTML TAG.
-
-Don't worry, it's not that complicated!
-
++ The innerHTML property of any DOM element is used to set the HTML content that is going to be set inside of that HTML TAG. Don't worry, it's not that complicated!
 
 ## 📝 Instructions:
 
 1. Using the `createElement` function, create a Paragraph(`p`) element with `yellow` background, set the `innerHTML` to 'Hello World' and append it at the end of the document.
 
-### 💡 Hint:
+## Expected output:
 
-- Create a `p` element.
-
-- Set the innerHTML.
-
-- Remember to setup the `yellow` style.
-
-- `appendChild` to the document.
-
-- At the end your website should look like this:
++ At the end your website should look like this:
 
 ![exercise 5 expected preview](../../.learn/assets/05.png)
+
+## 💡 Hints:
+
++ Create a `p` element.
+
++ Set the innerHTML.
+
++ Remember to setup the `yellow` style.
+
++ `appendChild` to the document.
+
+

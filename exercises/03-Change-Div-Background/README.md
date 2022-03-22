@@ -1,12 +1,14 @@
 # `03` Change Div Background
 
-In this HTML website, inside of the `<body>` we have a `<div>` with the `id# 'myDiv' `
+In this HTML website, inside of the `<body>` we have a `<div>` with the `id# 'myDiv'`
+ 
+Try this:
 
-### 📝 Try this:
++ Using Javascript, please change the background of that `div` to `yellow`.
 
-- Using Javascript, please change the background of that `div` to `yellow`.
++ You can set any CSS style to any DOM element using the `element.style` property. 
 
-You can set any CSS style to any DOM element using the `element.style` property. 
+## Example:
 
 For example, to change the background of an element we need to set the `element.style.background` property to the color we want.
 
@@ -18,9 +20,7 @@ let aux = document.querySelector('#anyElement');
 aux.style.background = "blue";
 ```
 
-### Here you can read about the style DOM object: 
-
-http://www.w3schools.com/jsref/dom_obj_style.asp
+Here you can read about [the style DOM object](http://www.w3schools.com/jsref/dom_obj_style.asp)
 
 ## 📝 Instructions:
 

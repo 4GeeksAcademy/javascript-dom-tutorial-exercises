@@ -1,8 +1,6 @@
-# `02` Seleccionar un elemento del DOM 
+# `02` Select DOM element
 
-En este sitio web, tenemos 2 elementos: un `<h1>` con el `id #theTitle` y un párrafo con el `id #theParagraph`.
-
-Puedes seleccionar cualquiera de los objetos en el DOM con la función `querySelector`. 
+En este sitio web, tenemos 2 elementos: un `<h1>` con el `id #theTitle` y un párrafo con el `id #theParagraph`. Puedes seleccionar cualquiera de los objetos en el DOM con la función `querySelector`. 
 
 Por ejemplo: si queremos seleccionar el elemento `<h1>`, podemos hacer lo siguiente:
 

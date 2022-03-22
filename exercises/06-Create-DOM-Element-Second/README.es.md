@@ -1,4 +1,4 @@
-# `06` Crea un elemento DOM en segundo lugar
+# `06` Create DOM Element Second
 
 En el ejercicio anterior vimos cómo crear un elemento DOM HTML usando las funciones `createElement` y `appendChild`. Hay otra forma de agregar un elemento al HTML del sitio web: `innerHTML`.
 
@@ -12,6 +12,6 @@ La propiedad `innerHTML` se usa para ESTABLECER el contenido html dentro de cual
 
 1. Inserta una imagen con la fuente "https://via.placeholder.com/350x150" en el `body`.
 
-### 💡 Pista:
+## 💡 Pista:
 
-- Aquí está la documentación de la propiedad innerHTML: http://www.w3schools.com/jsref/prop_html_innerhtml.asp
++ Aquí está la documentación de la propiedad innerHTML: http://www.w3schools.com/jsref/prop_html_innerhtml.asp

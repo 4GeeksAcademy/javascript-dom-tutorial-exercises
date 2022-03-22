@@ -1,8 +1,6 @@
 # `02` Select DOM Element
 
-In this website, we have 2 elements: one `<h1>` with the `id` `#theTitle` and a paragraph with the `id` `#theParagraph`.
-
-You can select any of the objects in the DOM with the `querySelector` function. 
+In this website, we have 2 elements: one `<h1>` with the `id` `#theTitle` and a paragraph with the `id` `#theParagraph`. You can select any of the objects in the DOM with the `querySelector` function. 
 
 For example: If we want to select the `<h1>` element, we can do the following:
 
@@ -26,4 +24,4 @@ Here you can read more about it: [read more](https://www.w3schools.com/jsref/pro
 
 ## 💡 Hint:
 
-Here you can read more about the id property of any DOM element: http://www.w3schools.com/jsref/prop_html_id.asp
++ Here you can read more about the id property of any DOM element: http://www.w3schools.com/jsref/prop_html_id.asp

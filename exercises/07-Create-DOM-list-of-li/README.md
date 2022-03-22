@@ -5,6 +5,7 @@ A great way to create HTML structures for your website is to concatenate several
 ```js
     let htmlString = '<div>' + 'Hello World' + '</div>';
 ```
+
 ## 📝 Instructions:
 
 1. SET the `liststring` variable with the value needed to have the following HTML as the `body`'s innerHTML:
@@ -17,6 +18,6 @@ A great way to create HTML structures for your website is to concatenate several
     </ul>
 ```
 
-### 💡 Hint:
+## 💡 Hint:
 
 + Remember that the white spaces and indentation are ignored by the browser's interpreter.
