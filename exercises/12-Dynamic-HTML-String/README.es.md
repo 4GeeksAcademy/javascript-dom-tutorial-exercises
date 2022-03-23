@@ -29,4 +29,4 @@ Usando la función getFullYear del objeto `Date()`, cambia el contenido del stri
 
 ## 💡 Pistas:
 
-+ Imprime el año actual utilizando el objeto de fecha, no establezcas el string en un año en particular, agrega(`append`) el año actual al final.
++ Imprime el año actual utilizando el objeto de fecha, no establezcas el string en un año en particular, agrega (`append`) el año actual al final.
