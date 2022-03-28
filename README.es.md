@@ -20,7 +20,7 @@ Este tutorial es parte de un grupo de tutoriales sobre desarrollo web, este repo
 
 4. A cambiar todo tu sitio web sin un refresh).
 
-Puedes [empezar el tutorial online](#instalación-en-un-clic) en solo 10 segundos o [puedes descargar lteos archivos](#instalación-local) para hacerlo localmen.
+Puedes [empezar el tutorial online](#instalación-en-un-clic) en solo 10 segundos o [puedes descargar lteos archivos](#instalación-local) para hacerlo localmente.
 
 Te recomiendo hacer lo tutoriales en este orden:
 
