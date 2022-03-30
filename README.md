@@ -8,7 +8,17 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-This tutorial is part of a bigger group of tutorials about web development, this repository focuses only on The DOM, you will learn how to select elements from your website and manipulate them with Javascript (change styles, add event listeners, remove elements programmatically, change your entire website without a refresh).
+This tutorial is part of a bigger group of tutorials about web development, this repository focuses only on The DOM.
+
+## You will learn the following concepts:
+
+1. How to select elements from your website 
+
+2. Manipulate them with Javascript (change styles, add event listeners).
+
+3. Remove elements programmaticall.
+
+4. Change your entire website without a refresh.
 
 You can [start the tutorial online](#one-click-installation) in just 10 seconds or [download the source files](#local-installation) to do it locally.
 
@@ -25,10 +35,9 @@ I strongly recommend doing this the tutorials in this order:
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-<h2>One click installation:</h2>
+## One click installation:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises.git)
-
 
 ## Local Installation
 
@@ -41,6 +50,7 @@ $ npm i learnpack jest@27.0.6 -g
 2) Clone or download this repository. Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
 
 3) Install the learnpack plugin to test and compile vanillajs:
+
 ```sh
 $ learnpack plugins:install learnpack-dom
 ```
@@ -65,9 +75,8 @@ Each exercise is a small vanillajs website containing the following files:
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) :bug:, contribution: (coder), (translation) :earth_americas:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder)  💻 (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 🤓 (build-tutorial) ✅  (documentation) 📖
 
-This project follows the
-[all-contributors](https://github.com/kentcdodds/all-contributors)
-specification. Contributions of any kind are welcome!
+2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, contribution: (coder), (translation) 🌎
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
