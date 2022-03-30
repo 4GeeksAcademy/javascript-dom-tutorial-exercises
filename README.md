@@ -10,15 +10,15 @@
 
 This tutorial is part of a bigger group of tutorials about web development, this repository focuses only on The DOM.
 
-####  you will learn the following concepts:
+## You will learn the following concepts:
 
-1. how to select elements from your website 
+1. How to select elements from your website 
 
-2. manipulate them with Javascript (change styles, add event listeners,
+2. Manipulate them with Javascript (change styles, add event listeners).
 
-3. remove elements programmatically, 
+3. Remove elements programmaticall.
 
-4. change your entire website without a refresh).
+4. Change your entire website without a refresh.
 
 You can [start the tutorial online](#one-click-installation) in just 10 seconds or [download the source files](#local-installation) to do it locally.
 
