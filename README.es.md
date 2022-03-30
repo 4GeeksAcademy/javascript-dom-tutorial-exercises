@@ -8,21 +8,21 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-Este tutorial es parte de un grupo de tutoriales sobre desarrollo web, este repositorio se enfoca solo en The DOM. 
+Este tutorial es parte de un grupo de tutoriales sobre desarrollo web, este repositorio se enfoca solo en el DOM. 
 
 #### Aprenderás los siguientes conceptos:
 
-1. Aprenderás cómo seleccionar elementos de su sitio web, 
+1. Aprenderás cómo seleccionar elementos de su sitio web.
 
-2. Manipularlos con Javascript (cambiar estilos, agregar detectores de eventos, 
+2. Manipularlos con Javascript (cambiar estilos, agregar detectores de eventos).
 
-3. Eliminar elementos mediante programación, 
+3. Eliminar elementos mediante programación.
 
-4. A cambiar todo tu sitio web sin un refresh).
+4. Cambiar todo tu sitio web sin un refresh.
 
 Puedes [empezar el tutorial online](#instalación-en-un-clic) en solo 10 segundos o [puedes descargar lteos archivos](#instalación-local) para hacerlo localmente.
 
-Te recomiendo hacer lo tutoriales en este orden:
+Te recomiendo hacer los tutoriales en este orden:
 
 1. [Introducciónn a HTML](https://github.com/4GeeksAcademy/html-tutorial-exercises-course)
 2. [Introducción a CSS](https://github.com/4GeeksAcademy/css-tutorial-exercises-course)
@@ -41,7 +41,7 @@ Te recomiendo hacer lo tutoriales en este orden:
 
 ## Instalación local
 
-1) Asegúrate de tener instalado [learnpack](https://github.com/learnpack/learnpack-cli) y `node.js` version v14+ y jest v27. Este es el comando para instalar learnpack-cli y jest:
+1) Asegúrate de tener instalado [learnpack](https://github.com/learnpack/learnpack-cli) y `node.js` version v14+ y jest v27.0.6 Este es el comando para instalar learnpack-cli y jest:
 
 ```sh
 $ npm i learnpack jest@27.0.6 -g
