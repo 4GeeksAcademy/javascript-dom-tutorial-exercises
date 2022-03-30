@@ -39,7 +39,6 @@ Te recomiendo hacer lo tutoriales en este orden:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises.git)
 
-
 ## Instalación local
 
 1) Asegúrate de tener instalado [learnpack](https://github.com/learnpack/learnpack-cli) y `node.js` version v14+ y jest v27. Este es el comando para instalar learnpack-cli y jest:
@@ -61,7 +60,6 @@ $ learnpack plugins:install learnpack-dom
 ```sh
 $ learnpack start
 ```
-
 ## ¿Cómo están organizados los ejercicios?
 
 Cada ejercicio es un pequeño sitio web de vanillajs que contiene los siguientes archivos:
