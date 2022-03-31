@@ -1,5 +1,6 @@
-# Aprende sobre El DOM Interactivamene
+# Aprende sobre El DOM (Interactivo)
 
+<!-- hide -->
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/4GeeksAcademy/javascript-dom-tutorial-exercises/b2f552e68f3e7ba7a2bc7176e1273a5df32ccb8f/.breathecode/assets/badge.svg"></a>
 
 > Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/graphs/contributors) en [4Geeks Academy](https://4geeksacademy.co/)
@@ -9,6 +10,7 @@
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 Este tutorial es parte de un grupo de tutoriales sobre desarrollo web, este repositorio se enfoca solo en el DOM. 
+<!-- endhide -->
 
 #### Aprenderás los siguientes conceptos:
 
@@ -20,7 +22,7 @@ Este tutorial es parte de un grupo de tutoriales sobre desarrollo web, este repo
 
 4. Cambiar todo tu sitio web sin un refresh.
 
-Puedes [empezar el tutorial online](#instalación-en-un-clic) en solo 10 segundos o [puedes descargar lteos archivos](#instalación-local) para hacerlo localmente.
+<!-- hide -->
 
 Te recomiendo hacer los tutoriales en este orden:
 
@@ -34,6 +36,8 @@ Te recomiendo hacer los tutoriales en este orden:
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
+
+<!-- endhide -->
 
 ## Instalación en un clic
 
