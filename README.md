@@ -1,5 +1,6 @@
 # Learn The DOM Interactively
 
+<!-- hide -->
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/4GeeksAcademy/javascript-dom-tutorial-exercises/b2f552e68f3e7ba7a2bc7176e1273a5df32ccb8f/.breathecode/assets/badge.svg"></a>
 
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
@@ -9,6 +10,7 @@
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 This tutorial is part of a bigger group of tutorials about web development, this repository focuses only on The DOM.
+<!-- endhide -->
 
 ## You will learn the following concepts:
 
@@ -20,7 +22,7 @@ This tutorial is part of a bigger group of tutorials about web development, this
 
 4. Change your entire website without a refresh.
 
-You can [start the tutorial online](#one-click-installation) in just 10 seconds or [download the source files](#local-installation) to do it locally.
+<!-- hide -->
 
 I strongly recommend doing this the tutorials in this order:
 
@@ -34,6 +36,8 @@ I strongly recommend doing this the tutorials in this order:
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
+
+<!-- endhide -->
 
 ## One click installation:
 
