@@ -1,4 +1,4 @@
-# `08` Remove DOM element: Part one
+# `08.1` Remove DOM element
 
 Si deseas eliminar un elemento del DOM, debes usar la función `removeChild`. El desafío detrás de esta función es que debe llamarse desde el padre del elemento que quieres eliminar. Por ejemplo:
 

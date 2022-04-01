@@ -8,8 +8,6 @@ Intenta esto:
 
 + Puedes CONFIGURAR cualquier estilo CSS en cualquier elemento DOM utilizando la propiedad `element.style`.
 
-## Ejemplo:
-
 Por ejemplo, Para cambiar el fondo de un elemento, necesitamos establecer la propiedad `element.style.background` con el color que queramos.
 
 ```js

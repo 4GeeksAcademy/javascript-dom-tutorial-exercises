@@ -1,4 +1,4 @@
-# `09` Remove DOM element: Part two
+# `08.2` Remove DOM element
 
 Es posible recuperar todos los elementos secundarios de un elemento DOM, para eso debes usar la propiedad `childNodes` del elemento. Por ejemplo:
 

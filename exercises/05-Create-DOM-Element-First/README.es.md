@@ -14,13 +14,9 @@ Después de crear cualquier elemento, debes agregarlo al DOM del sitio web si de
     document.body.appendChild(elem);
 ```
 
-## 🔎 Importante:
-
-+ La propiedad innerHTML de cualquier elemento DOM se usa para establecer el contenido HTML que se establecerá dentro de esa etiqueta HTML ¡No te preocupes, no es tan complicado!
-
 ## 📝 Instrucciones:
 
-1. Usando la función `createElement`, crea un elemento Párrafo(`p`) con fondo (background) amarillo (`yellow`), establece el `innerHTML` en 'Hello World' y agrégalo al final del documento.
+1. Usando la función `createElement`, crea un elemento Párrafo (`p`) con fondo (background) amarillo (`yellow`), establece el `innerHTML` en 'Hello World' y agrégalo al final del documento.
 
 ## Resultado esperado:
 
@@ -38,4 +34,6 @@ Después de crear cualquier elemento, debes agregarlo al DOM del sitio web si de
 
 + Agrega el elemento p al document utilizanod la funcion `appendChild`.
 
+## 🔎 Importante:
 
++ La propiedad innerHTML de cualquier elemento DOM se usa para establecer el contenido HTML que se establecerá dentro de esa etiqueta HTML ¡No te preocupes, no es tan complicado!

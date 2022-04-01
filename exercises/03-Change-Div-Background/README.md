@@ -8,8 +8,6 @@ Try this:
 
 + You can set any CSS style to any DOM element using the `element.style` property. 
 
-## Example:
-
 For example, to change the background of an element we need to set the `element.style.background` property to the color we want.
 
 ```js

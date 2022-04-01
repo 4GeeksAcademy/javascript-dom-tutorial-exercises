@@ -1,4 +1,4 @@
-# `09` Remove DOM Element: Part Two
+# `08.2` Remove DOM element
 
 It is possible to retrieve all the childs of a DOM element, for that you need to use the the `childNodes` property of the element. For example:
 

@@ -1,4 +1,4 @@
-# `14` Todo List
+# `13` Todo List
 
 This todo list design is pure css. The css and html is ready, but we need to code the Javascript part of the application. 
 

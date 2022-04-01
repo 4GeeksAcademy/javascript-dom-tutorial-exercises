@@ -1,4 +1,4 @@
-# `13` Add option to the select
+# `12` Add option to the select
 
 ## 📝 Instructions:
 

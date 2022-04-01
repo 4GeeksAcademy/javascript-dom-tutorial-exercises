@@ -1,4 +1,4 @@
-# `01` Bienvenido a El DOM 😆 !!
+# `01` Bienvenido Al DOM 😆 !!
 
 Ser un desarrollador web front-end se trata de [El DOM](https://content.breatheco.de/es/lesson/what-is-dom-define-dom/), con este tutotial entenderás los siguientes conceptos:
 

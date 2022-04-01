@@ -1,4 +1,4 @@
-# `12` String dinámico HTML 
+# `11` Dynamic HTML String
 
 Una de las cosas interesantes de javascript es que te permite crear string dinámicas en HTML durante el tiempo de ejecución, lo que significa que puedes crear HTML automáticamente mientras duermes. ¡Si! Tranquilo, ahora entenderás cómo...
 
