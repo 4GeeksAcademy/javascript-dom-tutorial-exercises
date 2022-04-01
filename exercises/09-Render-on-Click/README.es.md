@@ -1,4 +1,4 @@
-# `10` Render on Clic
+# `09` Render on Clic
 
 Las interacciones del usuario normalmente requieren cambios en el DOM. Usamos **eventos** para eso.
 Si no te sientes cómodo con los **eventos**, completa primero todos [estos ejercicios aquí](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises).

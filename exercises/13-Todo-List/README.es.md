@@ -1,4 +1,4 @@
-# `14` Todo List
+# `13` Todo List
 
 Este diseño de lista de tareas (Todo List) es puro CSS. El CSS y HTML están liston, pero necesitamos codificar la parte Javascript de la aplicación. 
 

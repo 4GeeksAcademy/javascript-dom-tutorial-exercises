@@ -8,8 +8,8 @@ But everything starts with a Hello World, of course 😄
 
 This exercise contains one HTML, one CSS and one JS file, please open your JS file and fill it with the code to prompt an alert saying `Hello World`.
 
-### :bulb: Hint:
+## 💡 Hints:
 
-- Build and preview your exercise code. It will open in a new window.
++ Build and preview your exercise code. It will open in a new window.
 
-- Press the test button when you feel confortable enough to automatically grade it and once you are ready doe the next one!
++ Press the test button when you feel confortable enough to automatically grade it and once you are ready doe the next one!

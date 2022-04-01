@@ -1,4 +1,4 @@
-# `13` Añade una opción a la selección 
+# `12` Add option to the select
 
 ## 📝 Instrucciones:
 

@@ -1,4 +1,4 @@
-# `12` Dynamic HTML String
+# `11` Dynamic HTML String
 
 One of the cool things about javascript, is that it lets you create dynamic HTML strings during runtime, that means that you can create HTML automatically while you sleep! Yes! Bear with me and you will understand how....
 
