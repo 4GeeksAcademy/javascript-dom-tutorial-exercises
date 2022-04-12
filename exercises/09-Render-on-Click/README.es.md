@@ -2,16 +2,17 @@
 
 Las interacciones del usuario normalmente requieren cambios en el DOM. Para ello usamos: **eventos**.
 
-Si aún no te sientes cómodo con los **eventos**, por favor primero completa estos ejercicios: [https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises)
-
 ## 📝 Instrucciones:
 
-1. Usando la función `createElement`, crea un contenedor `div` con fondo (`background`) amarillo
-y un "Hello World" como `innerHTML`.
+1. Usando la función `createElement`, crea un contenedor `div` con fondo (`background`) amarillo y un "Hello World" como `innerHTML`.
 
 2. Luego agrega ese `div` en el `body` del sitio web cuando los usuarios hagan clic en el `#superDuperButton`.
 
-## 💡 Pista:
+## Resultado Esperado:
+
+![Gif del Resultado Esperado](../../.learn/assets/10-1.gif)
+
+## 💡Pistas:
 
 + Obtén el botón con la función `getElementById`.
 
@@ -19,6 +20,6 @@ y un "Hello World" como `innerHTML`.
 
 + Dentro de esa función de listener, agrega el código necesario para crear el elemento y añádelo al `body` como un hijo (`appendChild`).
 
-### Resultado Esperado:
+## 🔎 Importante:
 
-![](../../.learn/assets/10-1.gif)
+Si aún no te sientes cómodo con los **eventos**, por favor primero completa estos ejercicios: [https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises)

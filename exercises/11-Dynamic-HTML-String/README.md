@@ -17,14 +17,15 @@ Here is the code you need to print any string into the html document:
     let myString = "<p>Hello!</p> <strong>My friend</strong>";
     document.write(myString);
 ```
+
 ## 📝 Instructions:
 
 1. Using the `getFullYear` function from the `Date()` object, change the string content of the variable `myString` to make it print the current date's year into the HTML.
 
-### Expected result:
+## Expected result:
 
-![](../../.learn/assets/12-1.png)
+![Expected result](../../.learn/assets/12-1.png)
 
-## 🔎 Important:
+## 💡 Hint:
 
 + Please print the current year using the date object, don't set the string to a particular year, append the current year to de end of it.

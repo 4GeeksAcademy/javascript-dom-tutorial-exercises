@@ -6,6 +6,6 @@
 
 2. Then, add a listener to the `'change'` event and display an alert with the selected country when the user selects it.
 
-### Expected result:
+## Expected result:
 
 ![image](../../.learn/assets/13-1.gif)
