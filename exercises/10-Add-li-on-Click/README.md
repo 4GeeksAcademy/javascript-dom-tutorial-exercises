@@ -4,14 +4,14 @@
 
 1. Using the createElement function, add a new `<li>` element to the `#myList` whenever the  `#superDuperButton` is clicked.
 
-### 💡 Hint:
+## Expected result:
 
-- Get the `#superDuperButton` button with the `getElementById` function.
+![Expected result gif](../../.learn/assets/11-1.gif)
 
-- Add a click event listener to the `#superDuperButton`.
+## 💡 Hint:
 
-- Inside of that listener function, add the needed code to create the new `li` element and append to the list as a child.
++ Get the `#superDuperButton` button with the `getElementById` function.
 
-### Expected result:
++ Add a click event listener to the `#superDuperButton`.
 
-![](../../.learn/assets/11-1.gif)
++ Inside of that listener function, add the needed code to create the new `li` element and append to the list as a child.
