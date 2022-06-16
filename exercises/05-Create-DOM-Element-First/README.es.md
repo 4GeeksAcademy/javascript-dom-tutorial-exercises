@@ -6,7 +6,7 @@ Es posible crear un nuevo elemento DOM con Javascript con la función createElem
 let elem = document.createElement("h1");
 ```
 
-Después de crear cualquier elemento, debes agregarlo al DOM del sitio web si deseas mostrarlo dentro del sitio web. Ppara agregar el elemento al DOM usamos la función `appendChild`.
+Después de crear cualquier elemento, debes agregarlo al DOM del sitio web si deseas mostrarlo dentro del sitio web. Para agregar el elemento al DOM usamos la función `appendChild`.
 
 ```js
     let elem = document.createElement("h1");
