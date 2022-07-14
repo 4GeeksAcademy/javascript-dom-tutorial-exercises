@@ -1,4 +1,4 @@
-# `01` Welcome to The DOM 😆 !!
+# `00` Welcome to The DOM 😆 !!
 
 Being a front-end web developer it's all about [The DOM](https://content.breatheco.de/lesson/what-is-dom-define-dom), after this tutorial you'll understand the following concepts:
 
