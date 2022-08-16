@@ -35,3 +35,7 @@ test('The getFullYear() method should have been called once', function () {
 test('You should use the document.write method', function () {
     expect(document.write.mock.calls.length).toBe(1)
 });
+test('The document.write method should have been called with myString variable', function () {
+    const regex = /\s*\bdocument.write\b\s*\(\s*\bmyString\b\s*\)\s*/gm
+    expect(regex.test(js.toString())).toBeTruthy()
+});
