@@ -39,3 +39,7 @@ test('The document.write method should have been called with myString variable',
     const regex = /\s*\bdocument.write\b\s*\(\s*\bmyString\b\s*\)\s*/gm
     expect(regex.test(js.toString())).toBeTruthy()
 });
+test("Variable myString should have the default value plus the year", ()=>{
+    const regex = /\s*\bmyString\s*=\s*\"\s*<p>\s*Hello!<\/p>\s*<strong>My friend<\/strong>\s*"/gm
+    expect(regex.test(js.toString())).toBeTruthy()
+})
