@@ -1,4 +1,4 @@
-# `09` Remove DOM Element: Part Two
+# `08.2` Remove DOM element
 
 It is possible to retrieve all the children of a DOM element by using the `childNodes` property of that element. For example:
 
@@ -15,11 +15,12 @@ Notice that the children of an element are not necessarily only the html element
 
 1. With the above knowledge 'in hand' and using the `childNodes` property, delete the second LI from the `#parentLi` list.
 
-### 💡 Hint:
+## 💡 Hints:
 
 Judging by the output of `childNodes`, you have to use the appropriate index of that array to remove the second `<li>` element from the DOM.
 
-### :mag_right: Important:
+## :mag_right: Important:
 
 + Was that unexpected? If you wonder why you needed to use index 3 to remove the second `li` instead of index 1, here is the answer: http://stackoverflow.com/questions/24589908/childnode-of-li-element-gives-text-ul-ul-text
+
 + Now repeat the exercise by replacing `.childNodes` with `.children` - `console.log()` it, observe the result and remove the second `<li>`. What do you notice?
