@@ -8,6 +8,8 @@
     "duration": 8,
     "difficulty": "easy",
     "autoPlay": true,
+    "video-solutions": true,
+    "bugs-link": "https://github.com/learnpack/learnpack/issues/new",
     "editor": {
         "version": "1.0.73"
     }
