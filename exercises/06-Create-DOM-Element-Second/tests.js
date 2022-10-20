@@ -20,8 +20,3 @@ it('Make sure to update the innerHTML string to include an HTML image tag', func
     
     expect(document.querySelector("img")).toBeTruthy();
 });
-
-it('Make sure not to delete the h1 either', function () {
-
-    expect(document.querySelector("h1")).toBeTruthy();
-});
