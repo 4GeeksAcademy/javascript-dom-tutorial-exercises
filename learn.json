@@ -10,6 +10,7 @@
     "autoPlay": true,
     "videoSolutions": false,
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+    "projectType": "tutorial",
     "editor": {
         "version": "1.0.73"
     }
