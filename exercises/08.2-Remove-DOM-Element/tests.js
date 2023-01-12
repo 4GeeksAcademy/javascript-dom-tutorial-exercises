@@ -44,7 +44,7 @@ test('You have to use the removeChild property.', function () {
 });
 test('You need to delete the correct element.', function () {
     document.documentElement.innerHTML = html.toString();
-    const expected = '[3]';
+    const expected = '[1]';
     // we can read from the source code
     console.log("*****",js.toString());
     expect(js.toString().indexOf(expected) > -1).toBeTruthy();
