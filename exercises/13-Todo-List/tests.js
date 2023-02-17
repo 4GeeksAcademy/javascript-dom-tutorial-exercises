@@ -40,7 +40,7 @@ test('You should append an element to the ul when you press enter on the input.'
     await waitFor(() => expect(ul.children.length).toBe(5))
 });
 
-test('You should append an element to the ul when you press enter on the input.', async () => {
+test('You should remove an element from the ul when you press the trash icon.', async () => {
     let input = document.querySelector("#addToDo")
     let ul = document.querySelector("ul")
     let trash = ul.children
