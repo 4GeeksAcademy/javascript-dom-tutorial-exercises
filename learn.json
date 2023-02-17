@@ -2,9 +2,15 @@
     "slug": "the-dom-exercises",
     "grading": "isolated",
     "repository": "https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises",
-    "title": "Learn how to manipulate The DOM with JS",
+    "title": {
+        "us": "Learn how to manipulate The DOM with JS",
+        "es": "Aprende cómo manipular el DOM con JavaScript"
+    },
     "preview": "https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/blob/master/preview.png?raw=true",
-    "description": "Step by step, go over all the most important DOM concepts and methods: Use javascript to manipulate styles, html elements.",
+    "description": {
+        "us": "Step by step, go over all the most important DOM concepts and methods: Use javascript to manipulate styles, HTML elements.",
+        "es": "Paso a paso, ve sobre todos los conceptos y métodos del DOM: Usa Javascript para manipular los estilos de los elementos de HTML."
+    },
     "duration": 8,
     "difficulty": "easy",
     "autoPlay": true,
