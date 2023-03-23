@@ -1,6 +1,6 @@
 # `00` Bienvenido Al DOM 😆 !!
 
-Ser un desarrollador web front-end se trata de [El DOM](https://content.breatheco.de/es/lesson/what-is-dom-define-dom/), con este tutotial entenderás los siguientes conceptos:
+Ser un desarrollador web front-end se trata de [El DOM](https://4geeks.com/es/lesson/what-is-dom-define-dom-es), con este tutotial entenderás los siguientes conceptos:
 
 + Manipulación de estilos del sitios web desde javascript.
 
