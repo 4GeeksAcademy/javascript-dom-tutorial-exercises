@@ -1,6 +1,6 @@
 # `00` Welcome to The DOM 😆 !!
 
-Being a front-end web developer it's all about [The DOM](https://content.breatheco.de/lesson/what-is-dom-define-dom), after this tutorial you'll understand the following concepts:
+Being a front-end web developer it's all about [The DOM](https://4geeks.com/lesson/what-is-dom-define-dom), after this tutorial you'll understand the following concepts:
 
 + Manipulating website styles from javascript.
 
