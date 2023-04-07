@@ -37,11 +37,11 @@ I strongly recommend doing this the tutorials in this order:
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-<!-- endhide -->
+## One click installation (recommended):
 
-## One click installation:
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/javascript-dom-tutorial-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises).
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises.git)
+> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local Installation
 
@@ -64,6 +64,8 @@ $ learnpack plugins:install learnpack-dom
 ```sh
 $ learnpack start
 ```
+
+<!-- endhide -->
 
 ## How are the exercises organized?
 
