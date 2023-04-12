@@ -77,6 +77,8 @@ Cada ejercicio es un pequeño sitio web de vanillajs que contiene los siguientes
 2. **README.md:** contiene las instrucciones de los ejercicios.
 3. **test.js:** no tienes que abrir este archivo, contiene el script de test para el ejercicio.
 
+> Nota: Los ejercicios tienen calificación automática pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
+
 ## Colaboradores
  
 Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
