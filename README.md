@@ -10,7 +10,10 @@
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 This tutorial is part of a bigger group of tutorials about web development, this repository focuses only on The DOM.
+
 <!-- endhide -->
+
+*[están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/blob/master/README.es.md) :es:*
 
 ## You will learn the following concepts:
 
@@ -76,6 +79,8 @@ Each exercise is a small vanillajs website containing the following files:
 1. **style.css:** your website styles, they have to be imported from the index.html
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
+
+> Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
 
 ## Contributors
 
