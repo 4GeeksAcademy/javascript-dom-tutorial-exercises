@@ -16,7 +16,10 @@ After you create any element, you have to add it to the website DOM if you want 
 
 ## 📝 Instructions:
 
-1. Using the `createElement` function, create a Paragraph (`p`) element with `yellow` background, set the `innerHTML` to 'Hello World' and append it at the end of the document.
+1. Using the `createElement` function, create a Paragraph (`p`) element
+2. Set the `p` element's background to `yellow`.
+3. Set the `innerHTML` to 'Hello World'.
+4. Append the `p` element to the end of the document.
 
 ## Expected output:
 
