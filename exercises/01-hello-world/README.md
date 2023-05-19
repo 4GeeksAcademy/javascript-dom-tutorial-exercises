@@ -12,4 +12,4 @@ This exercise contains one HTML, one CSS and one JS file, please open your JS fi
 
 + Build and preview your exercise code. It will open in a new window.
 
-+ Press the test button when you feel confortable enough to automatically grade it and once you are ready doe the next one!
++ Press the test button when you feel comfortable enough to automatically grade it and once you are ready do the next one!
