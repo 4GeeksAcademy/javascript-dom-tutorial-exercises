@@ -45,6 +45,8 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 ## Instalación local
 
+Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
+
 1) Asegúrate de tener instalado [learnpack](https://github.com/learnpack/learnpack-cli) y `node.js` version v14+ y jest v27.0.6 Este es el comando para instalar learnpack-cli y jest:
 
 ```sh
