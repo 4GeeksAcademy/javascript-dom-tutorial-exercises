@@ -11,9 +11,8 @@
 
 This tutorial is part of a bigger group of tutorials about web development, this repository focuses only on The DOM.
 
-<!-- endhide -->
-
 *[están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/blob/master/README.es.md) :es:*
+<!-- endhide -->
 
 ## You will learn the following concepts:
 
@@ -47,6 +46,8 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 > Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local Installation
+
+Clone the repository in your local environment and follow the steps below:
 
 1) Make sure you have [learnpack](https://github.com/learnpack/learnpack-cli) installed and `node.js` version v14+ and jest v27. This is the command to install the learnpack-cli and jest:
 
