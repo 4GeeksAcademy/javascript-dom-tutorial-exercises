@@ -16,7 +16,7 @@ This tutorial is part of a bigger group of tutorials about web development, this
 
 ## You will learn the following concepts:
 
-1. How to select elements from your website.
+1. How to select elements from your website. <!--HERE I AM FIXED Maybe a fix can be made here somewhere -->
 
 2. Manipulate them with Javascript (change styles, add event listeners).
 
