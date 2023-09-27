@@ -18,7 +18,7 @@ Las interacciones del usuario normalmente requieren cambios en el DOM. Para ello
 
 + Agrega un listener de eventos al `#superDuperButton`.
 
-+ Dentro de esa función de listener, agrega el código necesario para crear el elemento y añádelo al `body` como un hijo (`appendChild`).
++ Dentro de esa función de listener, agrega el código necesario para crear el elemento y añádelo al `<body>` como un hijo (`appendChild`).
 
 ## 🔎 Importante:
 
