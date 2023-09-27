@@ -1,6 +1,6 @@
 let countries = ["USA", "France", "Italy", "Brazil", "Colombia", "Belize", "Venezuela"];
-// Your code here
 
+// Your code here
 let selectElement = document.getElementById("mySelect");
 
 for (let i = 0; i < countries.length; i++) {
