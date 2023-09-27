@@ -13,3 +13,5 @@
 ## 💡 Hint:
 
 + Remember the `for` loop? it can be very handy in this situation.
+
++ Read about the [change event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event).
