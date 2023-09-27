@@ -13,3 +13,5 @@
 ## 💡 Pista:
 
 + ¿Recuerdas el bucle `for`? Puede ser muy útil en esta situación.
+
++ Lee sobre el [evento change](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event).
