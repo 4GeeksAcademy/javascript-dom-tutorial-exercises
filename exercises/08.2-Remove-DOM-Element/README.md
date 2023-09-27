@@ -17,7 +17,7 @@ Notice that the children of an element are not necessarily only the HTML element
 
 ## 💡 Hints:
 
-Judging by the output of `childNodes`, you have to use the appropriate index of that array to remove the second `<li>` element from the DOM.
++ Judging by the output of `childNodes`, you have to use the appropriate index of that array to remove the second `<li>` element from the DOM.
 
 ## 🔎 Important:
 
