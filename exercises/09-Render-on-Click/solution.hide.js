@@ -1,4 +1,4 @@
-let button = document.querySelector("#superDuperButton");
+let button = document.getElementById("superDuperButton");
 button.addEventListener("click", function() {
 	// Your code here
 	let newDiv = document.createElement("div");
