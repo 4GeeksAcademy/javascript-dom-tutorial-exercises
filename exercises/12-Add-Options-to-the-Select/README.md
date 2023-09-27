@@ -10,7 +10,7 @@
 
 ![image](../../.learn/assets/13-1.gif)
 
-## 💡 Hint:
+## 💡 Hints:
 
 + Remember the `for` loop? it can be very handy in this situation.
 
