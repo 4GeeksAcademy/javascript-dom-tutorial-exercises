@@ -1,4 +1,4 @@
-# `06` Create DOM Element Second
+# `06` Create DOM Element (2)
 
 In the last exercise we saw how to create a html DOM element using the `createElement` and `appendChild` functions. There is another way to add an element to the HTML of the website: `innerHTML`.
 
