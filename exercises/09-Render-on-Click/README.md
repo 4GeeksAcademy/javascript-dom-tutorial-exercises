@@ -18,7 +18,7 @@ User interactions normally require changes in the DOM. For that, we use: **event
 
 + Add a click event listener to the `#superDuperButton`.
 
-+ Inside that listener function, add the needed code to create the element and append it to the body as a child.
++ Inside that listener function, add the needed code to create the element and append it to the `<body>` as a child.
 
 ## 🔎 Important:
 
