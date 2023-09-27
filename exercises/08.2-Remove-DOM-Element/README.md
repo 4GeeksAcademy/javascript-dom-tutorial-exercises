@@ -9,7 +9,7 @@ let childs = list.childNodes;
 
 ![](../../.learn/assets/09-1.png) 
 
-Notice that the children of an element are not necessarily only the html elements inside of it (like `<li></li>`) but it could be any item inside. To observe that, you can `console.log` the childNodes of the `<ul>` element in this exercise. 
+Notice that the children of an element are not necessarily only the html elements inside of it (like `<li></li>`) but it could be any item inside. To observe that, you can `console.log` the `childNodes` of the `<ul>` element in this exercise. 
 
 ## 📝 Instructions:
 
