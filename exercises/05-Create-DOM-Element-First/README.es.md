@@ -1,12 +1,12 @@
-# `05` Create DOM Element First
+# `05` Create DOM Element
 
-Es posible crear un nuevo elemento DOM con Javascript con la función createElement.
+Es posible crear un nuevo elemento del DOM desde JavaScript con la función `createElement()`.
 
 ```js
 let elem = document.createElement("h1");
 ```
 
-Después de crear cualquier elemento, debes agregarlo al DOM del sitio web si deseas mostrarlo dentro del sitio web. Para agregar el elemento al DOM usamos la función `appendChild`.
+Después de crear cualquier elemento, debes agregarlo al DOM del sitio web si deseas mostrarlo dentro del sitio web. Para agregar el elemento al DOM usamos la función `appendChild()`.
 
 ```js
     let elem = document.createElement("h1");
@@ -16,11 +16,11 @@ Después de crear cualquier elemento, debes agregarlo al DOM del sitio web si de
 
 ## 📝 Instrucciones:
 
-1. Usando la función `createElement`, crea un elemento Párrafo (`p`) con fondo (background) amarillo (`yellow`), establece el `innerHTML` en 'Hello World' y agrégalo al final del documento.
+1. Usando la función `createElement()`, crea un elemento párrafo (`p`) con fondo (background) amarillo (`yellow`), establece el `innerHTML` como 'Hello World' y finalmente agregalo al documento (`appendChild()`).
 
-## Resultado esperado:
+## 💻 Resultado esperado:
 
-+ Al final tu website deberia verse asi:
++ Al final tu website debería verse así:
 
 ![exercise 5 expected preview](../../.learn/assets/05.png)
 
@@ -28,12 +28,12 @@ Después de crear cualquier elemento, debes agregarlo al DOM del sitio web si de
 
 + Crea un elemento `p`.
 
-+ Establece el innerHTML.
++ Establece el `innerHTML`.
 
 + Recuerda configurar el estilo amarillo (`yellow`).
 
-+ Agrega el elemento p al document utilizanod la funcion `appendChild`.
++ Agrega el elemento al documento utilizando la función `appendChild()`.
 
 ## 🔎 Importante:
 
-+ La propiedad innerHTML de cualquier elemento DOM se usa para establecer el contenido HTML que se establecerá dentro de esa etiqueta HTML ¡No te preocupes, no es tan complicado!
++ La propiedad `innerHTML` de cualquier elemento DOM se usa para establecer el contenido HTML que se establecerá dentro de esa etiqueta HTML ¡No te preocupes, no es tan complicado!
