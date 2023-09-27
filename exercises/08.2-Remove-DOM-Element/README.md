@@ -21,6 +21,6 @@ Notice that the children of an element are not necessarily only the HTML element
 
 ## 🔎 Important:
 
-+ Was that unexpected? If you wonder why you needed to use index 3 to remove the second `li` instead of index 1, here is the answer: http://stackoverflow.com/questions/24589908/childnode-of-li-element-gives-text-ul-ul-text
++ Was that unexpected? If you wonder why you needed to use index 3 to remove the second `<li>` instead of index 1, here is the answer: http://stackoverflow.com/questions/24589908/childnode-of-li-element-gives-text-ul-ul-text
 
 + Now repeat the exercise by replacing `childNodes` with `children` - `console.log()` it, observe the result and remove the second `<li>`. What do you notice?
