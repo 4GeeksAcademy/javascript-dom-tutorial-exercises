@@ -7,7 +7,7 @@ const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
 
 jest.dontMock('fs');
 
-test("You should use the querySelector to select the element with #id parentLi", function () {
+test("You should use querySelector to select the element with id #parentLi", function () {
     document.documentElement.innerHTML = html.toString();
     /*
         Here is how to mock the alert function:
@@ -28,21 +28,21 @@ test("You should use the querySelector to select the element with #id parentLi",
     expect(document.querySelector).toHaveBeenCalledWith("#parentLi");
 
 });
-test('You have to use the childNodes property.', function () {
+test('You have to use the childNodes property', function () {
     document.documentElement.innerHTML = html.toString();
     const expected = 'childNodes';
     // we can read from the source code
     console.log("*****",js.toString());
     expect(js.toString().indexOf(expected) > -1).toBeTruthy();
 });
-test('You have to use the removeChild property.', function () {
+test('You have to use the removeChild property', function () {
     document.documentElement.innerHTML = html.toString();
     const expected = 'removeChild';
     // we can read from the source code
     console.log("*****",js.toString());
     expect(js.toString().indexOf(expected) > -1).toBeTruthy();
 });
-test('You need to delete the correct element.', function () {
+test('You need to delete the correct element', function () {
     document.documentElement.innerHTML = html.toString();
     const expected = '[3]';
     // we can read from the source code
@@ -52,7 +52,7 @@ test('You need to delete the correct element.', function () {
 
 
 
-test('the html code should contain a script tag', function () {
+test('The html code should contain a <script> tag', function () {
     document.documentElement.innerHTML = html.toString();
 
     // we can read from the source code
