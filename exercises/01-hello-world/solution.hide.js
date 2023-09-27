@@ -1,2 +1,2 @@
-//alert here
+// Your code here
 alert("Hello world")
