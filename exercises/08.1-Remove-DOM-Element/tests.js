@@ -23,7 +23,7 @@ test(`Please use the function querySelector to find the #secondElement`, functio
     expect(document.querySelector).toHaveBeenCalledWith("#secondElement");
 });
 
-test(`Use the function removeChild and pass the second LI element to it`, function () {
+test(`Use the function removeChild and pass the second <li> element to it`, function () {
 
     //then I import the index.js (which should have the alert() call inside)
     expect(li.parentNode.removeChild).toHaveBeenCalledWith(li);
