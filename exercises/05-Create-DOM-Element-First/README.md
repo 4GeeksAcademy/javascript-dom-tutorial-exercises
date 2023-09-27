@@ -1,4 +1,4 @@
-# `05` Create DOM Element First
+# `05` Create DOM Element
 
 It is possible to create a new DOM element from JavaScript with the function `createElement()`.
 
