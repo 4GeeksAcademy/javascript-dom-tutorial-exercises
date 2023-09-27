@@ -9,3 +9,7 @@
 ## 💻 Resultado esperado:
 
 ![image](../../.learn/assets/13-1.gif)
+
+## 💡 Pista:
+
++ ¿Recuerdas el bucle `for`? Puede ser muy útil en esta situación.
