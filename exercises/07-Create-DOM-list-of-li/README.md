@@ -8,7 +8,7 @@ let htmlString = '<div>' + 'Hello World' + '</div>';
 
 ## 📝 Instructions:
 
-1. Set the `liststring` variable with the value needed to have the following HTML as the `body`'s innerHTML:
+1. Set the `listString` variable with the value needed to have the following HTML as the `body`'s innerHTML:
 
 ```html
 <ul>
