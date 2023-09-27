@@ -1,2 +1,2 @@
 // Your code here
-alert("Hello world")
+alert("Hello World")
