@@ -9,3 +9,7 @@
 ## 💻 Expected result:
 
 ![image](../../.learn/assets/13-1.gif)
+
+## 💡 Hint:
+
++ Remember the `for` loop? it can be very handy in this situation.
