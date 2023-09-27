@@ -6,7 +6,7 @@ But everything starts with a Hello World, of course 😄
 
 ## 📝 Instructions:
 
-1. This exercise contains one HTML, one CSS and one JS file, please open your JS file and fill it with the code to prompt an alert saying `Hello World`.
+1. This exercise contains one HTML, one CSS and one JS file. Please open your JS file and fill it with the code to prompt an alert saying `Hello World`.
 
 ## 💡 Hints:
 
