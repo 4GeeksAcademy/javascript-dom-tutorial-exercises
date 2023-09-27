@@ -8,7 +8,7 @@ let htmlString = '<div>' + 'Hello World' + '</div>';
 
 ## 📝 Instrucciones:
 
-1. Establece la variable `liststring` con el valor necesario para que el siguiente código HTML se imprima en el `body` usando innerHTML:
+1. Establece la variable `listString` con el valor necesario para que el siguiente código HTML se imprima en el `body` usando innerHTML:
 
 ```html
 <ul>
