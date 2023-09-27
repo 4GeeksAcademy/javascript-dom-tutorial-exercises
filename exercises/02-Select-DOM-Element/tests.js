@@ -13,7 +13,7 @@ beforeEach(() => {
 });
 afterEach(() => { jest.resetModules(); });
 
-it('alert() function should be called passing it the id of the h1 element', function () {
+it('The alert() function should be called passing it the id of the <h1> element', function () {
 
     /*
         Here is how to mock the alert function:
@@ -29,7 +29,7 @@ it('alert() function should be called passing it the id of the h1 element', func
     expect(alert).toHaveBeenCalledWith("theTitle");
 });
 
-it("You should use querySelector (don't use getElementById) ", function () {
+it("You should use querySelector (don't use getElementById)", function () {
 
     /*
         Here is how to mock the alert function:
@@ -51,7 +51,7 @@ it("You should use querySelector (don't use getElementById) ", function () {
 
 
 
-it('the html code should contain a script tag importing index.js', function () {
+it('The html code should contain a <script> tag importing index.js', function () {
 
     // we can read from the source code
     expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();
