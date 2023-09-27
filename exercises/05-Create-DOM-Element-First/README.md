@@ -16,11 +16,11 @@ After you create any element, you have to add it to the website's DOM if you wan
 
 ## 📝 Instructions:
 
-1. Using the `createElement()` function, create a Paragraph (`p`) element with `yellow` background, set the `innerHTML` to 'Hello World', and finally append it in the document.
+1. Using the `createElement()` function, create a paragraph (`p`) element with `yellow` background, set the `innerHTML` to 'Hello World', and finally append it in the document.
 
 ## 💻 Expected output:
 
-+ At the end your website should look like this:
++ At the end, your website should look like this:
 
 ![exercise 5 expected preview](../../.learn/assets/05.png)
 
@@ -30,7 +30,7 @@ After you create any element, you have to add it to the website's DOM if you wan
 
 + Set the `innerHTML`.
 
-+ Remember to setup the `yellow` style.
++ Remember to set the `yellow` style.
 
 + `appendChild()` to the document.
 
