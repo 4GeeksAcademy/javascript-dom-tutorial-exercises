@@ -10,7 +10,7 @@ document.body.innerHTML = "<h1>Hello World</h1>";
 
 ## 📝 Instructions:
 
-1. Insert an image with the source "https://via.placeholder.com/350x150" into the `body`.
+1. Insert an image with the source "https://via.placeholder.com/350x150" into the `<body>`.
 
 ## 💡 Hint:
 
