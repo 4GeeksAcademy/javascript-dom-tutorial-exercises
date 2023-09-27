@@ -23,11 +23,11 @@ const file = require("./index.js");
 //   expect(document.createElement).toHaveBeenCalledWith("p");
 // });
 
-it('The new <p> element should contain "Hello World" ', function () {
+it('The new <p> element should contain "Hello World"', function () {
       expect(fakeP.innerHTML.toLocaleLowerCase()).toBe("hello world");
 });
 
-it('The new <p> element should have a "yellow" background.', function () {
+it('The new <p> element should have a "yellow" background', function () {
       expect(fakeP.style.background.toLocaleLowerCase()).toBe("yellow");
 });
 
