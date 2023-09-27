@@ -9,9 +9,9 @@ let elem = document.createElement("h1");
 After you create any element, you have to add it to the website's DOM if you want to display it inside the website. To add the element to the DOM we use the function `appendChild()`.
 
 ```js
-    let elem = document.createElement("h1");
-    elem.innerHTML = "Hello World";
-    document.body.appendChild(elem);
+let elem = document.createElement("h1");
+elem.innerHTML = "Hello World";
+document.body.appendChild(elem);
 ```
 
 ## 📝 Instructions:
