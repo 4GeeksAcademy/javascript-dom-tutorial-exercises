@@ -29,7 +29,7 @@ Este tutorial es parte de un grupo de tutoriales sobre desarrollo web, este repo
 1. [Introducción a HTML](https://github.com/4GeeksAcademy/html-tutorial-exercises-course)
 2. [Introducción a CSS](https://github.com/4GeeksAcademy/css-tutorial-exercises-course)
 3. [Introducción a JavaScript](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial)
-4. [Introducción a El DOM](https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises) ← Estás aquí 🔥
+4. [Introducción al DOM](https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises) ← Estás aquí 🔥
 5. [Uso de eventos & El DOM](https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises)
 6. [Programación Orientada a Objetos](https://github.com/4GeeksAcademy/object-oriented-javascript-tutorial-exercises)
 
@@ -46,7 +46,7 @@ Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
 1) Asegúrate de tener instalado [learnpack](https://github.com/learnpack/learnpack-cli), `node.js` version v14+ y jest v27. Este es el comando para instalar learnpack-cli y jest:
 
 ```bash
-$ npm i learnpack jest@27.0.6 -g
+$ npm i @learnpack/learnpack@2.1.20 jest@27.0.6 -g
 ```
 
 2) Clona o descarga este repositorio. Una vez que termines de descargar, encontrarás una nueva carpeta con un subdirectorio "exercises" que contiene todos los ejercicios dentro.
