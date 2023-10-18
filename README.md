@@ -48,7 +48,7 @@ Clone the repository in your local environment and follow the steps below:
 1) Make sure you have [learnpack](https://github.com/learnpack/learnpack-cli), `node.js` version v14+, and jest v27 installed. This is the command to install the learnpack-cli and jest:
 
 ```bash
-$ npm i learnpack jest@27.0.6 -g
+$ npm i @learnpack/learnpack@2.1.20 jest@27.0.6 -g
 ```
 
 2) Clone or download this repository. Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
