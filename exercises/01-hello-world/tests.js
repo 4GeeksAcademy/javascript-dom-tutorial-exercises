@@ -13,7 +13,7 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('alert() function should be called with "Hello World" (case sensitive)', function () {
+    it('The alert() function should be called with "Hello World" (case sensitive)', function () {
 
         /*
             Here is how to mock the alert function:
@@ -41,12 +41,12 @@ describe('All the styles should be applied', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('the background should be blue', function () {
+    it('The background should be lightblue', function () {
 
         // get computed styles of any element you like
         const body = document.querySelector('body');
         var styles = window.getComputedStyle(body);
-        expect(styles["background-color"]).toBe("blue");
+        expect(styles["background-color"]).toBe("lightblue");
     });
 });
 
@@ -58,7 +58,7 @@ describe('All the html should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('the html code should contain a script tag', function () {
+    it('The html code should contain a <script> tag', function () {
 
         // we can read from the source code
         expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();

@@ -44,13 +44,13 @@ test('You should use addEventListener', function () {
     expect(expected.test(js.toString())).toBeTruthy();
 });
 
-test('You should use an alert when the select value changes.',  async () => {
+test('You should use an alert when the select value changes',  async () => {
     let select = document.querySelector("#mySelect")
     fireEvent.change(select)
     await waitFor(() => expect(alert.mock.calls.length).toBe(1))
 });
 
-test('You should use an alert to print the selected country.',  async () => {
+test('You should use an alert to print the selected country',  async () => {
     let select = document.querySelector("#mySelect")
     fireEvent.change(select)
     await waitFor(() => expect(alert).toHaveBeenCalledWith(select.value))

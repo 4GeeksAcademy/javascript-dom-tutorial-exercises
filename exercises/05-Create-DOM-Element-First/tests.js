@@ -23,19 +23,19 @@ const file = require("./index.js");
 //   expect(document.createElement).toHaveBeenCalledWith("p");
 // });
 
-it('The new "p" element should contain "Hello World" ', function () {
+it('The new <p> element should contain "Hello World"', function () {
       expect(fakeP.innerHTML.toLocaleLowerCase()).toBe("hello world");
 });
 
-it('The new "p" element should have a "yellow" background.', function () {
+it('The new <p> element should have a "yellow" background', function () {
       expect(fakeP.style.background.toLocaleLowerCase()).toBe("yellow");
 });
 
-it('Use the appendChild function to add the <P> into the document.body', function () {
+it('Use the appendChild function to add the <p> into the document.body', function () {
       expect(document.body.appendChild).toHaveBeenCalledWith(fakeP);
 });
 
-it('the html code should contain a script tag', function () {
+it('The html code should contain a <script> tag', function () {
     document.documentElement.innerHTML = html.toString();
     // we can read from the source code
     //console.log(html.toString());

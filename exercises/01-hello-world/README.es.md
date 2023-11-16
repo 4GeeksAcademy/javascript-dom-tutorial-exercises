@@ -1,6 +1,6 @@
 # `01` Hello World
 
-EL DOM es donde se combinan todos tus conocimientos de Front-End, debes conocer un poco de HTML, CSS y Javascript.
+EL DOM es donde se combinan todos tus conocimientos de front-end, debes conocer un poco de HTML, CSS y JavaScript.
 
 Pero todo comienza con un Hello World, por supuesto. 😄
 
@@ -10,6 +10,6 @@ Pero todo comienza con un Hello World, por supuesto. 😄
 
 ## 💡 Pistas:
 
-+ Compila y obten un vista previa del código del ejercicio. Se abrirá en una nueva ventana.
++ Compila y obtén una vista previa del código del ejercicio. Se abrirá en una nueva ventana.
 
-+ Presiona el botón de test cuando te sientas lo suficientemente cómodo como para calificarlo automáticamente y pasar al siguiente ejercicio.
++ Presiona el botón de test cuando te sientas lo suficientemente cómodo para calificarlo automáticamente y pasar al siguiente ejercicio.

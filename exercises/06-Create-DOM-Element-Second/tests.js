@@ -10,13 +10,13 @@ const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
 
 const file = require("./index.js");
 
-it('Please keep the document.body.innerHTML', function () {
+it('Please use the innerHTML property to add an element to the <body>', function () {
     const expected1 = 'body.innerHTML';
     // we can read from the source code
     expect(js.indexOf(expected1) > -1).toBeTruthy();
 });
 
-it('Make sure to update the innerHTML string to include an HTML image tag', function () {
+it('Make sure to update the <body> innerHTML to include an <img> tag', function () {
     
     expect(document.querySelector("img")).toBeTruthy();
 });
