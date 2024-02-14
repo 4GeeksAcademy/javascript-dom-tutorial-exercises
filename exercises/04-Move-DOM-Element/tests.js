@@ -35,7 +35,7 @@ it("The querySelector function should be called once. Don't change the existing 
 
 });
 
-it('The position of div wulu must be right', function () {
+it('The position of <div> wulu must be right', function () {
     /*
         Here is how to mock the alert function:
         https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest

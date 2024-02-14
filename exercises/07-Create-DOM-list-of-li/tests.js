@@ -13,7 +13,7 @@ it('The website DOM must contain 3 <li> items' , function () {
     expect(lis.length).toBe(3);
 });
 
-it('the html code should contain a script tag', function () {
+it('the html code should contain a <script> tag', function () {
     document.documentElement.innerHTML = html.toString();
     // we can read from the source code
     expect(html.toString().indexOf(`<script src="./index.js"></script>`) > -1).toBeTruthy();

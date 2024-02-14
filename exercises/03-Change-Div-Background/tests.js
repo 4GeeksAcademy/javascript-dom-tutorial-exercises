@@ -13,7 +13,7 @@ beforeEach(() => {
     document.documentElement.innerHTML = html.toString();
 });
 afterEach(() => { jest.resetModules(); });
-it("The querySelector function should be called once (So don't delete the existing code!)", function () {
+it("The querySelector function should be called once (don't delete the existing code!)", function () {
     /*
         Here is how to mock the alert function:
         https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest

@@ -1,5 +1,5 @@
-let button = document.querySelector("#superDuperButton");
+let button = document.getElementById("superDuperButton");
 button.addEventListener("click", function() {
-	//your code here
+	// Your code here
 
 });

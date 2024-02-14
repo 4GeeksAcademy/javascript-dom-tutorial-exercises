@@ -23,14 +23,14 @@ document.createElement = jest.fn((selector) => {
 
 require(path.resolve(__dirname, './index.js')) 
 
-test('<button> tag must exist', () => {
+test('The <button> tag must exist', () => {
     // Get form elements by their label text.   
     // An error will be thrown if one cannot be found (accessibility FTW!)
     const btn = queryByText(document, 'Click me');
     expect(btn).toBeTruthy();
 })
 
-test('<li> must be added into the <ul> after <button> is clicked', async () => {
+test('The <li> must be added into the <ul> after <button> is clicked', async () => {
     // Get form elements by their label text.   
     // An error will be thrown if one cannot be found (accessibility FTW!)
     const btn = queryByText(document, 'Click me')
