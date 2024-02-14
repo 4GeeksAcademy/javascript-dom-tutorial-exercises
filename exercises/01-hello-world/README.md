@@ -12,4 +12,4 @@ But everything starts with a Hello World, of course 😄
 
 + Build and preview your exercise code. It will open in a new window.
 
-+ Press the test button when you feel comfortable enough to automatically grade it, and once you are ready, do the next one!
++ Press the test button when you feel comfortable enough to automatically grade it. Once you are ready, do the next one!
