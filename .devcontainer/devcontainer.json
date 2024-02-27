@@ -22,7 +22,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	"onCreateCommand": "npm i jest@27.0.6 -g && npm i @learnpack/learnpack@2.1.26 -g && learnpack plugins:install learnpack-dom@0.0.11"
+	"onCreateCommand": "npm i jest@27.0.6 -g && npm i @learnpack/learnpack@2.1.35 -g && learnpack plugins:install learnpack-dom@0.0.11"
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
