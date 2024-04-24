@@ -1,23 +1,26 @@
 {
-    "slug": "the-dom-exercises",
-    "grading": "isolated",
-    "repository": "https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises",
-    "title": {
-        "us": "Learn how to manipulate The DOM with JS",
-        "es": "Aprende cómo manipular el DOM con JavaScript"
-    },
-    "preview": "https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/blob/master/preview.png?raw=true",
-    "description": {
-        "us": "Step by step, go over all the most important DOM concepts and methods: Use javascript to manipulate styles, HTML elements.",
-        "es": "Paso a paso, ve sobre todos los conceptos y métodos del DOM: Usa Javascript para manipular los estilos de los elementos de HTML."
-    },
-    "duration": 8,
-    "difficulty": "easy",
-    "autoPlay": true,
-    "videoSolutions": false,
-    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "projectType": "tutorial",
-    "editor": {
-        "version": "3.1.23"
-    }
+"slug": "the-dom-exercises",
+"grading": "isolated",
+"repository": "https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises",
+"title": {
+    "us": "Learn how to manipulate The DOM with JS",
+    "es": "Aprende cómo manipular el DOM con JavaScript"
+},
+"preview": "https://github.com/4GeeksAcademy/javascript-dom-tutorial-exercises/blob/master/preview.png?raw=true",
+"description": {
+    "us": "Step by step, go over all the most important DOM concepts and methods: Use javascript to manipulate styles, HTML elements.",
+    "es": "Paso a paso, ve sobre todos los conceptos y métodos del DOM: Usa Javascript para manipular los estilos de los elementos de HTML."
+},
+"duration": 8,
+"difficulty": "easy",
+"autoPlay": true,
+"videoSolutions": false,
+"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+"projectType": "tutorial",
+"editor": {
+    "version": "3.1.36"
+},
+"telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+}
 }
