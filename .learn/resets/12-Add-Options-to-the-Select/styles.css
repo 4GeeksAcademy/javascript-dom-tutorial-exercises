@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body {
+	text-align: center;
+	background-size: cover;
+}
+
+select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	text-indent: 0.01px;
+	text-overflow: "";
+	padding: 1em 0 1em 1em;
+	border: 1px solid #107177;
+	border-radius: 0;
+	position: relative;
+	border-right-width: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+select:focus {
+	outline: none;
+	border-color: #169ca4;
+}
