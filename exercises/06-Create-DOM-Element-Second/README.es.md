@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=gpJO-8xfCfo"
+---
+
+
 # `06` Create DOM Element (2)
 
 En el ejercicio anterior vimos cómo crear un elemento DOM HTML usando las funciones `createElement()` y `appendChild()`. Hay otra forma de agregar un elemento al HTML del sitio web: `innerHTML`.

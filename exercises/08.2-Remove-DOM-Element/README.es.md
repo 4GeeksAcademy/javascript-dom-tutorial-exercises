@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=w2WfYQ8TYUo"
+---
+
+
 # `08.2` Remove DOM element
 
 Es posible recuperar todos los elementos hijos de un elemento del DOM, para eso debes usar la propiedad `childNodes` del elemento. Por ejemplo:

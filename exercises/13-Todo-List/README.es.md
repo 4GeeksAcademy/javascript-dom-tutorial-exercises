@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=yi7E-8jxSOk"
+---
+
+
 # `13` Todo List
 
 Este diseño de lista de tareas (Todo List) es puro CSS. El CSS y HTML están listos, pero necesitamos codificar la parte JavaScript de la aplicación. 

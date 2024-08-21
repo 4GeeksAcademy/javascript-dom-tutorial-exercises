@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=bw-PknOZ_TI"
+---
+
+
 # `07` Create DOM list of li
 
 Una excelente manera de crear estructuras HTML para tu sitio web es concatenar varios strings de HTML en un solo string de HTML más grande, y luego, agregar ese string al `innerHTML` de cualquier elemento que ya sea parte del HTML. Por ejemplo:

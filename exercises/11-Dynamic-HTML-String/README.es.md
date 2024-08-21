@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=ZUATl2g00Uk"
+---
+
+
 # `11` Dynamic HTML String
 
 Una de las cosas interesantes de JavaScript es que te permite crear string dinámicas en HTML durante el tiempo de ejecución, lo que significa que puedes crear HTML automáticamente mientras duermes. ¡Sí! Tranquilo, ahora entenderás cómo...

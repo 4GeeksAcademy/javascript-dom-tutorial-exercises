@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=T3I448FYqWY"
+---
+
+
 # `01` Hello World
 
 EL DOM es donde se combinan todos tus conocimientos de front-end, debes conocer un poco de HTML, CSS y JavaScript.

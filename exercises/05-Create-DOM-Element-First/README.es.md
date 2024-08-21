@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=RTeT-w81vlc"
+---
+
+
 # `05` Create DOM Element (1)
 
 Es posible crear un nuevo elemento del DOM desde JavaScript con la función `createElement()`.

@@ -1,3 +1,8 @@
+---
+intro: "https://www.youtube.com/watch?v=7KKoXnJLKEQ"
+---
+
+
 # `00` Bienvenido Al DOM 😆 !!
 
 Ser un desarrollador web front-end se trata de [El DOM](https://4geeks.com/es/lesson/what-is-dom-define-dom-es). Con este tutorial entenderás los siguientes conceptos:

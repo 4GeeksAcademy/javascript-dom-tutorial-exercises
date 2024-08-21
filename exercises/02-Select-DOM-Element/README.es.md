@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=Edrf7rGWWlQ"
+---
+
+
 # `02` Select DOM Element
 
 En este sitio web, tenemos 2 elementos: un `<h1>` con el **id** `#theTitle` y un párrafo con el **id** `#theParagraph`. Puedes seleccionar cualquiera de los objetos en el DOM con la función `querySelector`. 

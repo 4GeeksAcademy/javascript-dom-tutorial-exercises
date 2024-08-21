@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=7acz8Pqgr-0"
+---
+
+
 # `09` Render on Click
 
 Las interacciones del usuario normalmente requieren cambios en el DOM. Para ello usamos: **eventos**.
