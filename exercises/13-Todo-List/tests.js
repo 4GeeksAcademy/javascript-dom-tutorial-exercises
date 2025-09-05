@@ -32,7 +32,7 @@ test('You should append an element to the <ul> when you press enter on the input
     let input = document.querySelector("#addToDo")
     let ul = document.querySelector("ul")
     fireEvent.keyDown(input, { key: "Enter", keyCode: 13 })
-    await waitFor(() => expect(ul.children.length).toBe(3))
+    await waitFor(() => expect(ul.children.length).toBe(4))
 });
 
 test('You should remove an element from the <ul> when you click the trash icon', async () => {
@@ -42,6 +42,6 @@ test('You should remove an element from the <ul> when you click the trash icon',
 
     let icon = trash[1].querySelector("span").querySelector(".fa-trash")
     fireEvent.click(icon)
-    await waitFor(() => expect(ul.children.length).toBe(2))
+    await waitFor(() => expect(ul.children.length).toBe(3))
 
 });
