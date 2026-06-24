@@ -28,9 +28,9 @@ test("You should use querySelector to select the element with id #parentLi", fun
     expect(document.querySelector).toHaveBeenCalledWith("#parentLi");
 
 });
-test('You have to use the childNodes property', function () {
+test('You have to use the childrenNodes property', function () {
     document.documentElement.innerHTML = html.toString();
-    const expected = 'childNodes';
+    const expected = 'childrenNodes';
     // we can read from the source code
     console.log("*****",js.toString());
     expect(js.toString().indexOf(expected) > -1).toBeTruthy();
