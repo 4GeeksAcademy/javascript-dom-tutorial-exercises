@@ -15,7 +15,7 @@ document.body.innerHTML = "<h1>Hello World</h1>";
 
 ## 📝 Instrucciones:
 
-1. Inserta una imagen con la siguiente fuente (src) "https://via.placeholder.com/350x150" en el `<body>`.
+1. Inserta una imagen con la siguiente fuente (src) "https://picsum.photos/350/150" en el `<body>`.
 
 ## 💡 Pista:
 
